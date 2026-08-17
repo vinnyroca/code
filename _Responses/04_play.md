@@ -1,0 +1,23 @@
+---
+layout: page
+title: Play and Internet
+permalink: /Responses/04_play/
+---
+
+## Description 
+
+**Don’t wait until the weekend before discussion to begin engaging with the sources for our response. During the weeks between discussions,  move through the sources slowly**
+
+**This response is due by 5pm the day before our discussion.**
+
+For this response, do the following:
+
+- Read *Making Space for A Handmade Web*, Chia Amisola : [Link](https://www.figma.com/blog/making-space-for-a-handmade-web/)
+- Read *A Handmade Web*, J. R. Carpenter : [Link](https://luckysoap.com/statements/handmadeweb.html)
+- Read *Against the Dark Forest*, Erin Kissane : [Link](https://www.wrecka.ge/against-the-dark-forest/)
+- Play *Black Room* (2017), Cassie McQuater : [Link](http://hgjfkdhskjdgturrgehdsbjkfhdsjkahturaytklfdjjfjfff.net/blackroom.html)
+
+## Submit:
+
+In the Discord channel for this response, post either a 500 word or 3 min video response. Responses should not be a summary of the readings/watchings and instead should connect the readings to your experience of programming and other experiences, academic or otherwise.
+

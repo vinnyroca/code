@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "7c484d5522100117",
+    "type": "split",
+    "children": [
+      {
+        "id": "3b8dda93a9f3e92e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ee3a776007ffa5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "schedule.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "schedule"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "47602aaa34e15fa0",
+    "type": "split",
+    "children": [
+      {
+        "id": "d81df2521119a89b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "20c79257f79b19fb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5566b12f53f84020",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3c28425197286303",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e99d5085b704bb92",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d6c29e9803df493",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe5c9fe5487bed4f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "resources.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for resources"
+            }
+          },
+          {
+            "id": "b0feee4ca4a3bb78",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "resources.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from resources"
+            }
+          },
+          {
+            "id": "6e4d7376e0a64c45",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "aaa5c8fa7b10239d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "c44725c322aaa077",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "resources.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of resources"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "4ee3a776007ffa5e",
+  "lastOpenFiles": [
+    "_Projects/02_narrative.md",
+    "schedule.md",
+    "_Tutorials/01_p5.md",
+    "_Projects/04_game.md",
+    "_Projects/03_performance.md",
+    "_Responses/01_art.md",
+    "_Responses/04_play.md",
+    "_Tutorials/13_git.md",
+    "_Projects/01_time.md",
+    "_site/Projects/04_game/index.html",
+    "_site/Projects/04_game",
+    "_site/Projects/04_performance/index.html",
+    "_site/Projects/04_performance",
+    "_site/Projects/03_performance/index.html",
+    "_site/Projects/03_performance",
+    "_site/Projects/03_performa/index.html",
+    "_site/Projects/03_performa",
+    "_site/Projects/03_/index.html",
+    "_site/Projects/03_",
+    "_Inclass/00_conditiondrawing.md",
+    "assignments.md",
+    "resources.md",
+    "_Responses/03_power.md",
+    "_Responses/02_culture.md",
+    "_Tutorials/12_css.md",
+    "_Tutorials/11_html.md",
+    "_Tutorials/10_oop.md",
+    "_Inclass/13_filter.md",
+    "_Inclass/10_clock.md",
+    "_Inclass/12_VisualMusic.md",
+    "_Inclass/11_cutOutMessage.md",
+    "_site/Inclass/13_filter.md",
+    "_site/Inclass/Untitled.md",
+    "_Tutorials/09_capture.md",
+    "_Inclass/09_rotate.md",
+    "_Inclass/08_10PRINT.md"
+  ]
+}
