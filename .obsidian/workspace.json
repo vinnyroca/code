@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "schedule.md",
+                "file": "index.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "schedule"
+              "title": "index"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "e99d5085b704bb92",
@@ -187,9 +187,32 @@
   },
   "active": "4ee3a776007ffa5e",
   "lastOpenFiles": [
-    "_Projects/02_narrative.md",
+    "assignments.md",
+    "studentwork_exercises.md",
+    "_layouts/table.html",
+    "_layouts/page copy.html",
+    "resources.md",
+    "_site/assets/responses/exercise.js",
+    "_site/assets/responses",
+    "_site/studentwork_exercises/index.html",
+    "_site/studentwork_exercises",
+    "assets/responses/exercise.js",
+    "assets/responses",
     "schedule.md",
     "_Tutorials/01_p5.md",
+    "_Tutorials/00_procedural_experiments.md",
+    "_Tutorials/02_variables.md",
+    "_Tutorials/03_flow.md",
+    "_Tutorials/04_repeat.md",
+    "_Tutorials/05_time.md",
+    "_Tutorials/06_Text.md",
+    "_Tutorials/07_functions.md",
+    "_Tutorials/08_sound.md",
+    "_Tutorials/09_capture.md",
+    "_Tutorials/11_html.md",
+    "_Tutorials/10_oop.md",
+    "index.md",
+    "_Projects/02_narrative.md",
     "_Projects/04_game.md",
     "_Projects/03_performance.md",
     "_Responses/01_art.md",
@@ -198,30 +221,6 @@
     "_Projects/01_time.md",
     "_site/Projects/04_game/index.html",
     "_site/Projects/04_game",
-    "_site/Projects/04_performance/index.html",
-    "_site/Projects/04_performance",
-    "_site/Projects/03_performance/index.html",
-    "_site/Projects/03_performance",
-    "_site/Projects/03_performa/index.html",
-    "_site/Projects/03_performa",
-    "_site/Projects/03_/index.html",
-    "_site/Projects/03_",
-    "_Inclass/00_conditiondrawing.md",
-    "assignments.md",
-    "resources.md",
-    "_Responses/03_power.md",
-    "_Responses/02_culture.md",
-    "_Tutorials/12_css.md",
-    "_Tutorials/11_html.md",
-    "_Tutorials/10_oop.md",
-    "_Inclass/13_filter.md",
-    "_Inclass/10_clock.md",
-    "_Inclass/12_VisualMusic.md",
-    "_Inclass/11_cutOutMessage.md",
-    "_site/Inclass/13_filter.md",
-    "_site/Inclass/Untitled.md",
-    "_Tutorials/09_capture.md",
-    "_Inclass/09_rotate.md",
-    "_Inclass/08_10PRINT.md"
+    "_Inclass/00_conditiondrawing.md"
   ]
 }

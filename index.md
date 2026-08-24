@@ -5,24 +5,21 @@ title: Syllabus
 
 # Syllabus
 
+*This is a living website and is maintained by a human (me.) With that in mind, if you notice any grammatical errors, missing links, or other bugs, please email me at the below address.*
+
 ## Course Information
 
-**SEMESTER:** Fall 2025
+**Course Title:** Intro to Code & Media Art  
+**Semester:** Fall 2026  
+**Weekly In-class Study Time:** 5 Hours  
+**Weekly External Study Time:** 9 Hours
 
-**LOCATION:** Scripps College, Steele 229  
-
-**TIME:** Tuesday and Thursday 4:15-6:45, 8/25-12/3
-
-Weekly class hours: 5 Hours
-
-External study hours: 9 Hours
-
-
-**INSTRUCTOR**  
+**Instructor:**  
 Vinny Roca, Scripps College  
-Email: vroca@scrippscollege.edu  
-Office Hours: Lang 227. By appointment; Tuesday & Thursday 1:30-2:30
-[Schedule office hours](https://outlook.office.com/bookwithme/user/14e2aa0a493c4a659e608aab96b46635@scrippscollege.edu/meetingtype/ex7sQIfLLkiMdKnIgITX3w2?anonymous&ismsaljsauthenabled&ep=mlink)
+[vroca@scrippscollege.edu](mailto:vroca@scrippscollege.edu)
+
+**Office Hours:**  
+By appointment on Tuesday  4:00 - 5:00
 
 ## Course Description
 
@@ -42,21 +39,20 @@ The objective of this course is to introduce the fundamental skills of programmi
 
 ### **Course Breakdown**
 
-|%||
+|Points||
 |:---:|---|
 |10|Time|
-|15|Narrative|
+|10|Narrative|
 |15|Performance|
 |20|Game Ring|
-|10|Participation|
+|15|Participation|
 |10|Reading Responses|
 |20|Exercises|
 
----
 
 ### Letter Grading
 
-|Number|Letter|
+|Points|Letter|
 |:---:|:---:|
 |93-100|A|
 |90-92|A-|
@@ -71,55 +67,59 @@ The objective of this course is to introduce the fundamental skills of programmi
 |60-62|D-|
 |0-59|F|
 
----
 
 
-### **Evaluation Criteria**
-#### Projects
+
+## Evaluation Criteria
+
+### Projects
 
 Completed projects will be graded using the following criteria:
 
-|||
+
 |:---:|---|
 |Technique| Is the assignment well-crafted? Is the conceptual idea behind the assignment supported by the technical and artistic decisions made by the student?|
 |Concept|Does the student comprehend the scope of the assignment? Is the student able to communicate their ideas clearly? Does the student demonstrate comprehension of the concepts covered in class? Is the student able to articulate the concepts behind their work?|
 |Generosity|Does the student exhibit insight, criticality, and risk-taking in their work? How much sensitivity and critical insight does the student display towards personal assignments and in critiquing their peers’ work?|
 
-#### Exercises
+### Exercises
 
 Exercises are mainly for student practice and experimentation. Exercises will be graded on their level of completion following the exercise prompt.
 
-#### Participation & Attendance
+For all exercises, late work will not be accepted. Completing exercises on time is essential to the progression of the course. Not completing exercises will result in a student falling behind. In the situation that extra time is needed to complete exercises, students must reach out to the instructor as soon as possible.
 
-All students are expected to participate actively during the discussion periods and critiques.
+### Participation and Attendance
 
-Students more than ten minutes late for class will be marked as late. Three late marks will result in an unexcused absence. More than two unexcused absences may, at the instructor’s discretion, affect the final participation grade.
+Active participation in all aspects of the class is crucial. In order to prepare for active participation, students are expected to engage with assigned material before each class session. Phones are strictly prohibited from being used in-class unless noted otherwise. Use of electronic devices during class will significantly impact the final participation grade.
 
-All classes are mandatory. If you anticipate missing a class or expect to have more than two absences during the course, inform the instructor as soon as possible.
+Students are expected to be prepared for class by the start of our class meeting time. Students are allowed one free unexcused absence during the semester. Students may not use their one unexcused absence during critiques. Additional absences will only be excused for documented illness, emergencies, or religious observances. Students who arrive to the class after the class meeting time will be marked as tardy. Three late attendance will be considered an unexcused absence. 
 
-#### Reading Responses
+Each unexcused absence will decrease the participation grade by 3. 5 or more unexcused absences will result in a zero participation grade. Each unexcused absence beyond 5 will result in a 3 point decrease in the students final grade.
 
-Reading responses are due by 5 p.m. the day before discussions. Reading responses should be posted in the proper Discord channel.
+### Reading Responses
+
+Reading responses are due by 5 p.m. the day before discussions. Reading responses should be submitted to canvas and the class Discord.
 
 Reading responses will be graded on the level of engagement the student has with the text. Is the student connecting the text to other readings or experiences? Is the student engaging with the text through questions, disagreements, or new lines of thought?
 
 As reading responses are essential to the discussion section of the course, late reading responses will not be accepted.
 
----
-
 ### Late Work and Extensions
 
-For all exercises, late work will not be accepted. Completing exercises on time is essential to the progression of the course. Not completing exercises will result in a student falling behind. In the situation that extra time is needed to complete exercises, students must reach out to the instructor as soon as possible.
+Late projects not ready by their assigned crit day will automatically lose one letter grade. After three days, the project will not be accepted.
 
-Late projects not ready by their assigned crit day will automatically lose one letter grade. Each day the project is late, it will lose one more letter grade. After three days, the project will not be accepted.
-
----
+## Class Materials and Communication
 
 ### Class Website
 
-Class website will serve a a live syllabus, schedule, and notes for this course. All exercises and assignments are described on the class website.
+Class website will serve a a live syllabus, schedule, and notes for this course. All exercises, projects and responses are described on the class website.
 
----
+For those interested, this website is written in markdown using [Obsidian](https://obsidian.md/) with slightly off-beat syntax to get links working. [Jekyll](https://jekyllrb.com/) is used to compile the markdown into a static site, and custom layout and CSS is used to build on the [Minima](https://github.com/jekyll/minima) theme. The color scheme of this site is based on [Flexoki](https://stephango.com/flexoki). The website exist as a repository on [GitHub](https://github.com/) and is hosted using GitHub Pages.  Gifs are recorded using [LICEcap](https://www.cockos.com/licecap/). The typeface if Funnel Sans by [Kristian Möller](https://www.ktkm.se/)
+
+
+### Class Canvas
+
+The class canvas includes instructions for how to submit responses, exercises, and assignments.
 
 ### Discord and Email
 
@@ -127,9 +127,7 @@ We will be submitting and sharing our exercises, reading responses and projects 
 
 I will respond to community Discord messages and email within 24 hrs of receipt. I will respond to messages sent over the weekend on the following Monday.
 
-For course communication, please send me an email rather than a DM on Discord.
-
----
+For course communication, please send me an email rather than a direct message on Discord. I will not respond to friend requests or direct messages.
 
 ### Readings
 
@@ -139,13 +137,11 @@ This link is password protected - password can be found in the class Discord.
 
 [Class Readings && Resources](https://scrippscollege.box.com/s/3je1kmbfik4jxdl2dhqeoajkj3sh1owr);
 
-## Lab Hours && Course Materials
+## Lab Hours
 
 Students are expected to work on exercises and assignments outside of class. To complete some assignments, students will need to make use of their personal computer.
 
-Students enrolled in this course will have 24/hr access to this computer lab. If you have any issues accessing the lab outside of the course hours, please contact me.
-
-**Unavailable times: M: 1:15AM - 5:30 PM; W:11:00AM - 2:30PM; T/R: 10:00AM - 12:30 PM**
+Students enrolled in this course will have 24/hr access to this computer lab. If you have any issues accessing the lab outside of the course hours, please contact me. The lab is **not** available when other classes are in session.
 
 **Note, some parts of this class will require:**
 
@@ -156,9 +152,9 @@ Students enrolled in this course will have 24/hr access to this computer lab. If
 
 ## Use of Generative AI
 
-ChatGPT and many other models, including Claude or CoPilot, can write code. As new programmers, this will be very helpful for you. However, it can also be detrimental. 
+Large Language Models, including Claude or CoPilot, can write code. As new programmers, this will be very helpful for you. However, it can also be detrimental. 
 
-The goal of this course is to teach you the fundamentals of programming and to explore how these fundamentals have drastically changed how one might approach being an artist. ChatGPT or other models can allow us to skip over these fundamentals, moving us to an endless cycle of copy, paste, test, copy, paste, test, and so on… 
+The goal of this course is to teach you the fundamentals of programming and to explore how these fundamentals have drastically changed how one might approach being an artist. LLM's can allow us to skip over these fundamentals, moving us to an endless cycle of copy, paste, test, copy, paste, test, and so on… 
 
 Coding, or the act of writing code, is always the last step. Before comes an intensive process of thinking, testing on paper, sketching, diagramming, or whatever approach you choose. Programming is not about writing code; it is about thinking and creating with our computers, knowing how changing variables or creating objects can give us both the results we aimed for, but also unexpected results.
 

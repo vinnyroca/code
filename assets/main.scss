@@ -325,6 +325,25 @@ h2.weekname{
    
 }
 
+.table-with-toc {
+  display: flex;
+    gap: 1rem;
+    padding-top: 40px;
+  align-items: flex-start;
+  max-width: auto;  
+  margin: 0 auto;       
+    
+}
+
+.table-content {
+  flex: 1;
+  min-width: 0;
+  margin: 0 auto;  
+  max-width: 800px; 
+  padding-bottom: 0 !important;
+   
+}
+
 .toc-sidebar {
   display: none;
 }

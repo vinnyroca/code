@@ -3,6 +3,7 @@ layout: page
 title: Capture
 permalink: /Tutorials/09_capture/
 ---
+<style> img{width: auto !important;} </style>
 # Capture and ml5.js
 
 ## Opening Examples

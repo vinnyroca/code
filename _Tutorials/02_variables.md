@@ -16,10 +16,10 @@ permalink: /Tutorials/02_variables/
 <script src="/assets/sketches/code_02/code_02_08.js"></script>
 <script src="/assets/sketches/code_02/code_02_09.js"></script>
 
-<script src="../assets/sketches/code_02/code_02_11.js"></script>
-<script src="../assets/sketches/code_02/code_02_12.js"></script>
-<script src="../assets/sketches/code_02/code_02_13.js"></script>
-<script src="../assets/sketches/code_02/code_02_14.js"></script>
+<script src="/assets/sketches/code_02/code_02_11.js"></script>
+<script src="/assets/sketches/code_02/code_02_12.js"></script>
+<script src="/assets/sketches/code_02/code_02_13.js"></script>
+<script src="/assets/sketches/code_02/code_02_14.js"></script>
 
 # Variables && Randomness
 
