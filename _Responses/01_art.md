@@ -25,7 +25,7 @@ For this response, do the following:
 
 ## Submit
 
-In the Discord channel for Response 1, post either a 500 word or 3 min video response considering the following questions (these are not strict questions to answer, but rather starting points for thinking about these sources):
+In the Discord channel for Response 1 and Canvas, post either a 500 word or 3 min video response considering the following questions (these are not strict questions to answer, but rather starting points for thinking about these sources):
 
 - How does Casey Reas’ understanding of the relationship between art and technology align with or differ from the views of Legacy Russell and the Cyberfeminism entry you researched?
 - In which way do these sources understanding of technology differ?

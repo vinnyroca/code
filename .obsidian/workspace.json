@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "_Responses/04_play.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "04_play"
             }
           }
         ]
@@ -187,18 +187,25 @@
   },
   "active": "4ee3a776007ffa5e",
   "lastOpenFiles": [
+    "_Responses/03_power.md",
+    "_Responses/02_culture.md",
+    "_Responses/01_art.md",
+    "index.md",
+    "_Exercises/01_LightandColor.md",
+    "schedule.md",
+    "_Exercises/00_signup.md",
+    "resources.md",
+    "Code.md",
     "assignments.md",
     "studentwork_exercises.md",
     "_layouts/table.html",
     "_layouts/page copy.html",
-    "resources.md",
     "_site/assets/responses/exercise.js",
     "_site/assets/responses",
     "_site/studentwork_exercises/index.html",
     "_site/studentwork_exercises",
     "assets/responses/exercise.js",
     "assets/responses",
-    "schedule.md",
     "_Tutorials/01_p5.md",
     "_Tutorials/00_procedural_experiments.md",
     "_Tutorials/02_variables.md",
@@ -211,16 +218,10 @@
     "_Tutorials/09_capture.md",
     "_Tutorials/11_html.md",
     "_Tutorials/10_oop.md",
-    "index.md",
     "_Projects/02_narrative.md",
     "_Projects/04_game.md",
     "_Projects/03_performance.md",
-    "_Responses/01_art.md",
-    "_Responses/04_play.md",
-    "_Tutorials/13_git.md",
-    "_Projects/01_time.md",
     "_site/Projects/04_game/index.html",
-    "_site/Projects/04_game",
-    "_Inclass/00_conditiondrawing.md"
+    "_site/Projects/04_game"
   ]
 }
