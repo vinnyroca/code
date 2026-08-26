@@ -4,6 +4,7 @@ title: Schedule
 permalink: /schedule/
 ---
 <style> h2{text-transform: uppercase; !important;} h3{text-decoration: underline dotted;} </style>
+
 # Schedule
 
 *Please note that this is a live schedule and is ever evolving as the course (/world) changes. Please check back frequently for due dates of assignments and course proceedings.*
@@ -13,7 +14,7 @@ permalink: /schedule/
 ### Tuesday 9/1
 
 - Introduction(s)
-- Playing with Code(s)
+- Code(s)
 
 #### Due:
 
@@ -145,7 +146,7 @@ permalink: /schedule/
 
 ## Week 8
 
-### Tuesday 10/20
+<h3 style="color: rgb(218, 112, 44)">Tuesday 10/20: Break</h3>
 
 - No Class
 
@@ -155,6 +156,8 @@ permalink: /schedule/
 
 ### Thursday 10/22
 
+- Attend Pixel Palettes Lecture
+
 #### Due:
 
 - Nothing Due Today!
@@ -163,67 +166,90 @@ permalink: /schedule/
 
 ### Tuesday 10/27
 
+- Tutorial: Sound
+
 #### Due:
 
 - Nothing Due Today!
 
 ### Thursday 10/29
 
+
+- Tutorial: Capture
+
 #### Due:
 
-- Nothing Due Today!
-
+- p5 DJ exercise
 ## Week 10
 
 ### Tuesday 11/3
 
+- Discussion
+- Studio Time: Performance
+
 #### Due:
 
-- Nothing Due Today!
+- Power and Surveillance Response
 
 ### Thursday 11/5
 
+- Studio Time: Performance
+
 #### Due:
 
-- Nothing Due Today!
+- Continue work on Performance project 
 
 ## Week 11
 
 ### Tuesday 11/10
 
+- Crit: Performance
+
 #### Due:
 
-- Nothing Due Today!
+- Performance Project
 
 ### Thursday 11/12
 
+- Tutorial: Classes and Objects
+- Assign: Game Ring
+
 #### Due:
 
-- Nothing Due Today!
+- Read Game Ring project description
 
 ## Week 12
 
 ### Tuesday 11/17
 
+- Tutorial: HTML
 #### Due:
 
-- Nothing Due Today!
+- Game Ring game prototype
+- Watch Laurel Schwulst's [Basics of HTML](https://www.youtube.com/watch?v=CkzbI1Tv_rQ)  
+- Download [Visual Studio Code](https://code.visualstudio.com/Download)
 
 ### Thursday 11/19
 
+- Tutorial: CSS
+
 #### Due:
 
-- Nothing Due Today!
+- Watch Laurel Schwulst's [Basics of CSS](https://www.youtube.com/watch?v=BUZIaTHm_oE)
+- Game Ring HTML Mockup
 
 ## Week 13
 
 ### Tuesday 11/24
 
+- Tutorial: Github Pages
+- Studio Time: Game Ring
+
 #### Due:
 
 - Nothing Due Today!
 
-### Thursday 11/26
+<h3 style="color: rgb(218, 112, 44)">Tuesday 11/26: Break</h3>
 
 - No Class
 
@@ -235,23 +261,29 @@ permalink: /schedule/
 
 ### Tuesday 12/1
 
+- Studio Time: Game Ring
+
 #### Due:
 
-- Nothing Due Today!
+- Continue work on Game Ring
 
 ### Thursday 12/3
 
+- Studio Time: Game Ring
+
 #### Due:
 
-- Nothing Due Today!
+- Continue work on Game Ring
 
 ## Week 15
 
 ### Tuesday 12/8
 
+- Crit: Game Ring
+
 #### Due:
 
-- Nothing Due Today!
+- Game Ring Final Website
 
 
 
