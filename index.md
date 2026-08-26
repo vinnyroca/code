@@ -112,9 +112,9 @@ Late projects not ready by their assigned crit day will automatically lose one l
 
 ### Class Website
 
-Class website will serve a a live syllabus, schedule, and notes for this course. All exercises, projects and responses are described on the class website.
+Class website will serve as a live syllabus, schedule, and notes for this course. All exercises, projects and responses are described on the class website.
 
-For those interested, this website is written in markdown using [Obsidian](https://obsidian.md/) with slightly off-beat syntax to get links working. [Jekyll](https://jekyllrb.com/) is used to compile the markdown into a static site, and custom layout and CSS is used to build on the [Minima](https://github.com/jekyll/minima) theme. The color scheme of this site is based on [Flexoki](https://stephango.com/flexoki). The website exist as a repository on [GitHub](https://github.com/) and is hosted using GitHub Pages.  Gifs are recorded using [LICEcap](https://www.cockos.com/licecap/). The typeface if Funnel Sans by [Kristian Möller](https://www.ktkm.se/)
+For those interested, this website is written in markdown using [Obsidian](https://obsidian.md/) with slightly off-beat syntax to get links working. [Jekyll](https://jekyllrb.com/) is used to compile the markdown into a static site, and custom layout and CSS is used to build on the [Minima](https://github.com/jekyll/minima) theme. The color scheme of this site is based on [Flexoki](https://stephango.com/flexoki). The website exist as a repository on [GitHub](https://github.com/) and is hosted using GitHub Pages. The typeface if Funnel Sans by [Kristian Möller](https://www.ktkm.se/)
 
 
 ### Class Canvas
@@ -141,7 +141,7 @@ This link is password protected - password can be found in the class Discord.
 
 Students are expected to work on exercises and assignments outside of class. To complete some assignments, students will need to make use of their personal computer.
 
-Students enrolled in this course will have 24/hr access to this computer lab. If you have any issues accessing the lab outside of the course hours, please contact me. The lab is **not** available when other classes are in session.
+Students enrolled in this course will have 24/hr access to the class computer lab. If you have any issues accessing the lab outside of the course hours, please contact me. The lab is **not** available when other classes are in session.
 
 **Note, some parts of this class will require:**
 
@@ -158,11 +158,11 @@ The goal of this course is to teach you the fundamentals of programming and to e
 
 Coding, or the act of writing code, is always the last step. Before comes an intensive process of thinking, testing on paper, sketching, diagramming, or whatever approach you choose. Programming is not about writing code; it is about thinking and creating with our computers, knowing how changing variables or creating objects can give us both the results we aimed for, but also unexpected results.
 
-In this way, ChatGPT can be harmful to the beginner programmer. It removes the need for a fundamental understanding and replaces it with the illusion of knowledge. I strongly suggest that over this course, ChatGPT becomes a last resort. There are many other resources available to you: In-class help, Discord messages, your peers, office hours, p5 examples, online videos, and much more. If you find yourself moving to type in a prompt, I suggest first asking yourself, “Is there more I can do to work towards this problem?”
+In this way, LLMs can be harmful to the beginner programmer. It removes the need for a fundamental understanding and replaces it with the illusion of knowledge. I strongly suggest that over this course, LLMs becomes a last resort. There are many other resources available to you: In-class help, Discord messages, your peers, office hours, p5 examples, online videos, and much more. If you find yourself moving to type in a prompt, I suggest first asking yourself, “Is there more I can do to work towards this problem?”
 
 ### Class Policy
  
-Any code found to be copied and pasted from ChatGPT will be considered plagiarism.
+Any code found to be copied and pasted from LLMs will be considered plagiarism.
 
 ### Examples
 
@@ -177,9 +177,9 @@ Some good uses:
 - How do I find the distance between two vectors?
 - How does a computer change the value of a variable in memory?
 
-What these examples above tend to demonstrate is that good uses of ChatGPT assist us in our learning process as we write our programs. 
+What these examples above tend to demonstrate is that good uses of LLMs assist us in our learning process as we write our programs. 
 
-There will be a temptation to make more complex projects with the use of ChatGPT. I urge you all to acknowledge your level of knowledge and abilities, and to trust that as you continue to make more art with code, as you write more and more complex programs, your knowledge of programming will grow, and so will your ability to know when ChatGPT and similar tools are supporting your learning.
+There will be a temptation to make more complex projects with the use of LLMs. I urge you all to acknowledge your level of knowledge and abilities, and to trust that as you continue to make more art with code, as you write more and more complex programs, your knowledge of programming will grow, and so will your ability to know when LLMs and similar tools are supporting your learning.
 
 ## Scripps College Land Acknowledgement
 
