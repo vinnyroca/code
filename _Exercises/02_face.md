@@ -51,7 +51,7 @@ Consider for yourself, would you want the eyes closer or farther away, how would
 
 ## Submit
 
-**To Discord:**
+- Fill out form on Canvas, follow instructions on Canvas
+- Submit p5 share link to Canvas and exercise-submission channel on Discord
 
-1. Your p5 edit link
-2. Three of your favorite faces captured as screenshots.
+(See Canvas for submission details.)

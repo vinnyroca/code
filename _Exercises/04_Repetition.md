@@ -26,7 +26,7 @@ You have two possible options for this exercise:
 
 ## Submit
 
-To the class Discord:
+- Fill out form on Canvas, follow instructions on Canvas
+- Submit p5 share link to Canvas and exercise-submission channel on Discord
 
-- If you chose option one, submit the drawing you selected and your p5 edit link.
-- If you chose option two, submit your p5 edit link
+(See Canvas for submission details.)

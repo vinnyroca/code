@@ -40,6 +40,6 @@ Feel free to experiment with:
 
 ## Submit
 
-See Class Canvas for submission details.
+See Class Canvas for submission details, follow instructions on Canvas.
 
 To get a p5 share link: Navigate to **File > Share > Share Sketch As View-Only >  Copy Share Link**

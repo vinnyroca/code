@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "_Projects/04_game.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "04_game"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 324.8333435058594
   },
   "right": {
     "id": "e99d5085b704bb92",
@@ -187,9 +187,18 @@
   },
   "active": "4ee3a776007ffa5e",
   "lastOpenFiles": [
-    "_Exercises/00_signup.md",
-    "_Exercises/02_face.md",
+    "_Projects/03_performance.md",
+    "_Projects/02_narrative.md",
+    "_Projects/01_time.md",
+    "schedule.md",
     "_Exercises/01_LightandColor.md",
+    "_Exercises/02_face.md",
+    "_Exercises/03_pongforone.md",
+    "_Exercises/04_Repetition.md",
+    "_Exercises/06_poetics.md",
+    "_Exercises/07_p5dj.md",
+    "_Exercises/00_signup.md",
+    "index.md",
     "_site/Attachments/Pasted image 20260827124028.png",
     "Attachments/Pasted image 20260827124028.png",
     "_Tutorials/00_procedural_experiments.md",
@@ -198,26 +207,19 @@
     "_site/Attachments/Pasted image 20260827121117.png",
     "Attachments/Pasted image 20260827121117.png",
     "_Tutorials/13_git.md",
-    "_Exercises/03_pongforone.md",
-    "_Exercises/04_Repetition.md",
-    "_Exercises/06_poetics.md",
-    "_Exercises/07_p5dj.md",
     "_Responses/04_play.md",
     "_Projects/04_game.md",
     "_site/Attachments/Pasted image 20260827120025.png",
     "Attachments/Pasted image 20260827120025.png",
-    "_Projects/02_narrative.md",
     "_site/Attachments/Pasted image 20260827115159.png",
     "Attachments/Pasted image 20260827115159.png",
     "_Tutorials/09_capture.md",
     "Code.md",
-    "schedule.md",
     "_site/assets/main.scss",
     "_site/assets/main.css.map",
     "assignments.md",
     "resources.md",
     "_Tutorials/01_p5.md",
-    "index.md",
     "newengine.md",
     "_Responses/03_power.md",
     "_Responses/02_culture.md",
@@ -230,7 +232,6 @@
     "_site/studentwork_exercises/index.html",
     "_site/studentwork_exercises",
     "assets/responses/exercise.js",
-    "assets/responses",
-    "_Tutorials/02_variables.md"
+    "assets/responses"
   ]
 }

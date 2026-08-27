@@ -25,3 +25,5 @@ This exercise has a few steps:
 1. [Sign up for p5.js](https://editor.p5js.org/signup)
 2. Look at the name p5.js generates for your first sketch. Imagine a possible art work with that name, it could be anything from a painting to a media installation.
 3. Within the introductions channel on the class Discord, share the name of your first sketch, a brief description of your imagined artwork as well as introduce yourself to the class.
+
+(Note: There is no canvas upload for this assignment)

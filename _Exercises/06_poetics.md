@@ -19,7 +19,7 @@ Links to explore:
 
 ## Submit
 
-Discord:
+- Fill out form on Canvas, follow instructions on Canvas
+- Submit p5 share link to Canvas and exercise-submission channel on Discord
 
-- An image of your poem
-- Your p5.js edit link
+(See Canvas for submission details.)

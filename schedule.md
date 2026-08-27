@@ -138,7 +138,7 @@ Due:
 
 ### Thursday 10/15
 
-- Narrative
+- Crit: Narrative
 
 Due:
 

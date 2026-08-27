@@ -84,7 +84,8 @@ The answer to this exercise is provided below. This challenge is a self-assessme
 
 ## Submit
 
-**To Discord:**
+- Fill out form on Canvas, follow instructions on Canvas
+- Submit p5 share link to Canvas and exercise-submission channel on Discord
+- Submit a few sentences on what you found difficult with the exercise to the exercise-submission channel on Discord.
 
-- Submit the edit link of your modified Pong For One sketch
-- Submit a few sentences about both what you found challenging with the assignment as well as what changes you made and why you made them.
+(See Canvas for submission details.)
