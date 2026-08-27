@@ -3,9 +3,7 @@ layout: page
 title: Syllabus
 ---
 
-# Syllabus
-
-*This is a living website and is maintained by a human (me.) With that in mind, if you notice any grammatical errors, missing links, or other bugs, please email me at the below address.*
+# MS 053
 
 ## Course Information
 
@@ -116,11 +114,11 @@ Class website will serve as a live syllabus, schedule, and notes for this course
 
 For those interested, this website is written in markdown using [Obsidian](https://obsidian.md/) with slightly off-beat syntax to get links working. [Jekyll](https://jekyllrb.com/) is used to compile the markdown into a static site, and custom layout and CSS is used to build on the [Minima](https://github.com/jekyll/minima) theme. The color scheme of this site is based on [Flexoki](https://stephango.com/flexoki). The website exist as a repository on [GitHub](https://github.com/) and is hosted using GitHub Pages. The typeface if Funnel Sans by [Kristian Möller](https://www.ktkm.se/)
 
+*The class website is a living website and is maintained by a human (me.) With that in mind, if you notice any grammatical errors, missing links, or other bugs, please email me at the above address.*
 
 ### Class Canvas
 
-The class canvas includes instructions for how to submit responses, exercises, and assignments.
-
+Canvas will be used for grading, attendance, and tracking completed assignments. While all assignment descriptions exist on this website, we will use canvas to track what is submitted and when it was submitted. 
 ### Discord and Email
 
 We will be submitting and sharing our exercises, reading responses and projects through Discord. Students will be invited to join the class Discord server on the first day of class.
@@ -129,13 +127,13 @@ I will respond to community Discord messages and email within 24 hrs of receipt.
 
 For course communication, please send me an email rather than a direct message on Discord. I will not respond to friend requests or direct messages.
 
-### Readings
+### Readings, Videos, Etc.
 
 All external readings and videos will be provided using Box.
 
-This link is password protected - password can be found in the class Discord.
+This link is password protected. The password will be distributed on the first day of class.
 
-[Class Readings && Resources](https://scrippscollege.box.com/s/3je1kmbfik4jxdl2dhqeoajkj3sh1owr);
+[Class Readings & Resources](https://scrippscollege.box.com/s/3je1kmbfik4jxdl2dhqeoajkj3sh1owr)
 
 ## Lab Hours
 
