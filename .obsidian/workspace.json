@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "schedule.md",
+                "file": "_Exercises/00_signup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "schedule"
+              "title": "00_signup"
             }
           }
         ]
@@ -187,20 +187,41 @@
   },
   "active": "4ee3a776007ffa5e",
   "lastOpenFiles": [
+    "_Exercises/02_face.md",
+    "_Exercises/01_LightandColor.md",
+    "_site/Attachments/Pasted image 20260827124028.png",
+    "Attachments/Pasted image 20260827124028.png",
+    "_Tutorials/00_procedural_experiments.md",
+    "_site/Attachments/Pasted image 20260827121243.png",
+    "Attachments/Pasted image 20260827121243.png",
+    "_site/Attachments/Pasted image 20260827121117.png",
+    "Attachments/Pasted image 20260827121117.png",
+    "_Tutorials/13_git.md",
+    "_Exercises/00_signup.md",
+    "_Exercises/03_pongforone.md",
+    "_Exercises/04_Repetition.md",
+    "_Exercises/06_poetics.md",
+    "_Exercises/07_p5dj.md",
+    "_Responses/04_play.md",
+    "_Projects/04_game.md",
+    "_site/Attachments/Pasted image 20260827120025.png",
+    "Attachments/Pasted image 20260827120025.png",
+    "_Projects/02_narrative.md",
+    "_site/Attachments/Pasted image 20260827115159.png",
+    "Attachments/Pasted image 20260827115159.png",
+    "_Tutorials/09_capture.md",
+    "Code.md",
+    "schedule.md",
+    "_site/assets/main.scss",
     "_site/assets/main.css.map",
     "assignments.md",
     "resources.md",
-    "schedule.md",
     "_Tutorials/01_p5.md",
     "index.md",
     "newengine.md",
-    "_Responses/04_play.md",
     "_Responses/03_power.md",
     "_Responses/02_culture.md",
     "_Responses/01_art.md",
-    "_Exercises/01_LightandColor.md",
-    "_Exercises/00_signup.md",
-    "Code.md",
     "studentwork_exercises.md",
     "_layouts/table.html",
     "_layouts/page copy.html",
@@ -210,18 +231,6 @@
     "_site/studentwork_exercises",
     "assets/responses/exercise.js",
     "assets/responses",
-    "_Tutorials/00_procedural_experiments.md",
-    "_Tutorials/02_variables.md",
-    "_Tutorials/03_flow.md",
-    "_Tutorials/04_repeat.md",
-    "_Tutorials/05_time.md",
-    "_Tutorials/06_Text.md",
-    "_Tutorials/07_functions.md",
-    "_Tutorials/08_sound.md",
-    "_Tutorials/09_capture.md",
-    "_Tutorials/11_html.md",
-    "_Tutorials/10_oop.md",
-    "_site/Projects/04_game/index.html",
-    "_site/Projects/04_game"
+    "_Tutorials/02_variables.md"
   ]
 }

@@ -3,7 +3,7 @@ layout: page
 title: Schedule
 permalink: /schedule/
 ---
-<style> h2{text-transform: uppercase; !important;} h3{text-decoration: underline dotted;} </style>
+<style> h2{text-transform: uppercase; border-color:rgb(206, 93, 151) !important;} h3{text-decoration: underline dotted; font-weight: normal !important; margin-top: 1% !important; }  </style>
 
 # Schedule
 
@@ -16,7 +16,7 @@ permalink: /schedule/
 - Introduction(s)
 - Code(s)
 
-#### Due:
+Due:
 
 - Nothing Due Today!
 
@@ -24,7 +24,7 @@ permalink: /schedule/
 
 - Tutorial: Shape and Color
 
-#### Due:
+Due:
 
 -  p5.js! Exercise
 
@@ -34,7 +34,7 @@ permalink: /schedule/
 
 - Tutorial: Variables and Random
 
-#### Due:
+Due:
 
 - Light and Color Exercise
 
@@ -42,7 +42,7 @@ permalink: /schedule/
 
 - Tutorial: Flow
 
-#### Due:
+Due:
 
 - Face Generator Exercise
 
@@ -52,7 +52,7 @@ permalink: /schedule/
 
 - Tutorial: Repeat
 
-#### Due:
+Due:
 
 - Pong for One Exercise
 
@@ -61,7 +61,7 @@ permalink: /schedule/
 - Tutorial: Time
 - Assign: Time
 
-#### Due:
+Due:
 
 - Repetition Exercise
 - Read Time project Description
@@ -73,7 +73,7 @@ permalink: /schedule/
 - Discussion
 - Studio Time: Time
 
-#### Due:
+Due:
 
 - Begin work on Time project
 - Art and Technology Response
@@ -82,7 +82,7 @@ permalink: /schedule/
 
 - Studio Time: Time
 
-#### Due:
+Due:
 
 - Continue work on time project
 
@@ -92,7 +92,7 @@ permalink: /schedule/
 
 - Crit: Time
 
-#### Due:
+Due:
 
 - Time project
 
@@ -100,7 +100,7 @@ permalink: /schedule/
 
 - Tutorial: Text and Arrays
 
-#### Due:
+Due:
 
 - Nothing Due Today!
 
@@ -111,7 +111,7 @@ permalink: /schedule/
 - Tutorial: Image and Functions
 - Assign: Narrative
 
-#### Due:
+Due:
 
 - p5 Poetics exercise
 - Read Narrative project description
@@ -120,7 +120,7 @@ permalink: /schedule/
 
 - Studio Time: Narrative
 
-#### Due:
+Due:
 
 - Proposal for Narrative
 
@@ -131,7 +131,7 @@ permalink: /schedule/
 - Discussion
 - Studio Time: Narrative
 
-#### Due:
+Due:
 
 - Begin work on Narrative project
 - Culture and Ideology Response
@@ -140,7 +140,7 @@ permalink: /schedule/
 
 - Narrative
 
-#### Due:
+Due:
 
 - Narrative project
 
@@ -150,7 +150,7 @@ permalink: /schedule/
 
 - No Class
 
-#### Due:
+Due:
 
 - Nothing Due Today!
 
@@ -158,7 +158,7 @@ permalink: /schedule/
 
 - Attend Pixel Palettes Lecture
 
-#### Due:
+Due:
 
 - Nothing Due Today!
 
@@ -168,7 +168,7 @@ permalink: /schedule/
 
 - Tutorial: Sound
 
-#### Due:
+Due:
 
 - Nothing Due Today!
 
@@ -177,9 +177,10 @@ permalink: /schedule/
 
 - Tutorial: Capture
 
-#### Due:
+Due:
 
 - p5 DJ exercise
+
 ## Week 10
 
 ### Tuesday 11/3
@@ -187,7 +188,7 @@ permalink: /schedule/
 - Discussion
 - Studio Time: Performance
 
-#### Due:
+Due:
 
 - Power and Surveillance Response
 
@@ -195,7 +196,7 @@ permalink: /schedule/
 
 - Studio Time: Performance
 
-#### Due:
+Due:
 
 - Continue work on Performance project 
 
@@ -205,7 +206,7 @@ permalink: /schedule/
 
 - Crit: Performance
 
-#### Due:
+Due:
 
 - Performance Project
 
@@ -214,7 +215,7 @@ permalink: /schedule/
 - Tutorial: Classes and Objects
 - Assign: Game Ring
 
-#### Due:
+Due:
 
 - Read Game Ring project description
 
@@ -223,7 +224,8 @@ permalink: /schedule/
 ### Tuesday 11/17
 
 - Tutorial: HTML
-#### Due:
+
+Due:
 
 - Game Ring game prototype
 - Watch Laurel Schwulst's [Basics of HTML](https://www.youtube.com/watch?v=CkzbI1Tv_rQ)  
@@ -233,7 +235,7 @@ permalink: /schedule/
 
 - Tutorial: CSS
 
-#### Due:
+Due:
 
 - Watch Laurel Schwulst's [Basics of CSS](https://www.youtube.com/watch?v=BUZIaTHm_oE)
 - Game Ring HTML Mockup
@@ -245,7 +247,7 @@ permalink: /schedule/
 - Tutorial: Github Pages
 - Studio Time: Game Ring
 
-#### Due:
+Due:
 
 - Nothing Due Today!
 
@@ -253,7 +255,7 @@ permalink: /schedule/
 
 - No Class
 
-#### Due:
+Due:
 
 - Nothing Due Today!
 
@@ -263,7 +265,7 @@ permalink: /schedule/
 
 - Studio Time: Game Ring
 
-#### Due:
+Due:
 
 - Continue work on Game Ring
 
@@ -271,7 +273,7 @@ permalink: /schedule/
 
 - Studio Time: Game Ring
 
-#### Due:
+Due:
 
 - Continue work on Game Ring
 
@@ -281,7 +283,7 @@ permalink: /schedule/
 
 - Crit: Game Ring
 
-#### Due:
+Due:
 
 - Game Ring Final Website
 

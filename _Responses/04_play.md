@@ -14,7 +14,8 @@ For this response, do the following:
 
 - Read *Making Space for A Handmade Web*, Chia Amisola : [Link](https://www.figma.com/blog/making-space-for-a-handmade-web/)
 - Read *A Handmade Web*, J. R. Carpenter : [Link](https://luckysoap.com/statements/handmadeweb.html)
-- Read *Against the Dark Forest*, Erin Kissane : [Link](https://www.wrecka.ge/against-the-dark-forest/)
+- Watch: [Olia Lialina : What does it mean to make a web page / KIKK Festival 2022](https://www.youtube.com/watch?v=_hFMOSmonvU)
+- Read: *From My to Me*, Olia Lialina: [Link](https://interfacecritique.net/book/olia-lialina-from-my-to-me/)
 - Play *Black Room* (2017), Cassie McQuater : [Link](http://hgjfkdhskjdgturrgehdsbjkfhdsjkahturaytklfdjjfjfff.net/blackroom.html)
 
 ## Submit:
