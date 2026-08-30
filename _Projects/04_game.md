@@ -73,6 +73,6 @@ Your final game ring site should have a complete game in p5.js, complete HTML an
 
 Optionally, save a copy of your webpage using the [Internet Archive](https://web.archive.org/) by entering your website into the “Save Page Now” button.
 
-Submit a link to a zipped folder contain all of your website files.
+Submit a link to a zipped folder contain all of your website files to this link.
 
-Submit the link to your finalized site in the class Discord.
+Submit the link to your finalized site in the class Discord and Canvas.

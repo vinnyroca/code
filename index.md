@@ -40,7 +40,7 @@ The objective of this course is to introduce the fundamental skills of programmi
 |Points||
 |:---:|---|
 |10|Time|
-|10|Narrative|
+|10|Text and Image|
 |15|Performance|
 |20|Game Ring|
 |15|Participation|
@@ -72,13 +72,13 @@ The objective of this course is to introduce the fundamental skills of programmi
 
 ### Projects
 
-Completed projects will be graded using the following criteria:
+Completed projects will be graded in the following areas:
 
+- Concept
+- Code
+- Craft
 
-|:---:|---|
-|Technique| Is the assignment well-crafted? Is the conceptual idea behind the assignment supported by the technical and artistic decisions made by the student?|
-|Concept|Does the student comprehend the scope of the assignment? Is the student able to communicate their ideas clearly? Does the student demonstrate comprehension of the concepts covered in class? Is the student able to articulate the concepts behind their work?|
-|Generosity|Does the student exhibit insight, criticality, and risk-taking in their work? How much sensitivity and critical insight does the student display towards personal assignments and in critiquing their peers’ work?|
+A rubric can be found on the page for each project.
 
 ### Exercises
 

@@ -13,12 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Projects/04_game.md",
+                "file": "_Exercises/06_poetics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04_game"
+              "title": "06_poetics"
+            }
+          }
+        ]
+      },
+      {
+        "id": "71796aaeec198be1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01224afbf0c8c778",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Projects/03_performance.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03_performance"
             }
           }
         ]
@@ -96,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources.md",
+                "file": "_Exercises/06_poetics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +126,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for resources"
+              "title": "Backlinks"
             }
           },
           {
@@ -187,18 +207,24 @@
   },
   "active": "4ee3a776007ffa5e",
   "lastOpenFiles": [
-    "_Projects/03_performance.md",
     "_Projects/02_narrative.md",
+    "_Projects/03_performance.md",
     "_Projects/01_time.md",
-    "schedule.md",
-    "_Exercises/01_LightandColor.md",
-    "_Exercises/02_face.md",
-    "_Exercises/03_pongforone.md",
-    "_Exercises/04_Repetition.md",
-    "_Exercises/06_poetics.md",
-    "_Exercises/07_p5dj.md",
-    "_Exercises/00_signup.md",
     "index.md",
+    "_Projects/04_game.md",
+    "Narrative Holder.md",
+    "schedule.md",
+    "Projects Holder.md",
+    "_Exercises/06_poetics.md",
+    "_site/Projects Holder.md",
+    "_site/Untitled.md",
+    "_site/Narrative Holder.md",
+    "_Exercises/03_pongforone.md",
+    "_Exercises/01_LightandColor.md",
+    "_Exercises/00_signup.md",
+    "_Exercises/02_face.md",
+    "_Exercises/04_Repetition.md",
+    "_Exercises/07_p5dj.md",
     "_site/Attachments/Pasted image 20260827124028.png",
     "Attachments/Pasted image 20260827124028.png",
     "_Tutorials/00_procedural_experiments.md",
@@ -208,7 +234,6 @@
     "Attachments/Pasted image 20260827121117.png",
     "_Tutorials/13_git.md",
     "_Responses/04_play.md",
-    "_Projects/04_game.md",
     "_site/Attachments/Pasted image 20260827120025.png",
     "Attachments/Pasted image 20260827120025.png",
     "_site/Attachments/Pasted image 20260827115159.png",
@@ -220,11 +245,6 @@
     "assignments.md",
     "resources.md",
     "_Tutorials/01_p5.md",
-    "newengine.md",
-    "_Responses/03_power.md",
-    "_Responses/02_culture.md",
-    "_Responses/01_art.md",
-    "studentwork_exercises.md",
     "_layouts/table.html",
     "_layouts/page copy.html",
     "_site/assets/responses/exercise.js",

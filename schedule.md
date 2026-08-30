@@ -109,40 +109,41 @@ Due:
 ### Tuesday 10/6
 
 - Tutorial: Image and Functions
-- Assign: Narrative
+- Assign: Text and Image
 
 Due:
 
 - p5 Poetics exercise
-- Read Narrative project description
+- Read Text and Image project description
 
 ### Thursday 10/8
 
-- Studio Time: Narrative
+- Studio Time: Text and Image
 
 Due:
 
-- Proposal for Narrative
+- Proposal for Text and Image
 
 ## Week 7
 
 ### Tuesday 10/13
 
 - Discussion
-- Studio Time: Narrative
+- Studio Time: Text and Image
 
 Due:
 
-- Begin work on Narrative project
+- Begin work on Text and Image project
 - Culture and Ideology Response
 
 ### Thursday 10/15
 
-- Crit: Narrative
+- Crit: Text and Image
+- **2 Points of Extra Credit:** Attend Talk: [Pepper Lecture: Artist Isabel Beavers & Nora N. Khan in Conversation](https://www.eventbrite.com/e/pepper-lecture-artist-isabel-beavers-nora-n-khan-in-conversation-tickets-1999041336450?aff=ebdssbcategorybrowse) @ Pitzer College, Benson Auditorium, October 15th. 430pm-630pm. Submit 200 word reflection to Canvas. 
 
 Due:
 
-- Narrative project
+- Text and Image project
 
 ## Week 8
 

@@ -31,5 +31,13 @@ For this project, you will be paired in groups of two. It is imperative for this
 
 ## Submit
 
-- Submit your final p5.js sketch to Discord.
-- Submit a link to the video recording of your performance.
+- Submit your final p5.js sketch to Discord and Canvas.
+- Submit a link to the video recording of your performance to this link.
+
+## References:
+
+Text Rain
+City of Abstracts
+Imogen Heap, Glove
+[Open Score](https://www.youtube.com/watch?v=FlZFYnnnn7U), Robert Rauschenberg
+The Legible City
