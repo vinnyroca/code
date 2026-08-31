@@ -2,5 +2,11 @@
   "useMarkdownLinks": true,
   "newLinkFormat": "absolute",
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "Attachments"
+  "attachmentFolderPath": "Attachments",
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 100
+  }
 }

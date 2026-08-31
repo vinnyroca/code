@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Exercises/06_poetics.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06_poetics"
+              "title": "index"
             }
           }
         ]
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Exercises/06_poetics.md",
+                "file": "_Tutorials/00_procedural_experiments.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,6 +207,15 @@
   },
   "active": "4ee3a776007ffa5e",
   "lastOpenFiles": [
+    "_Tutorials/00_procedural_experiments.md",
+    "_Tutorials/01_p5.md",
+    "_Exercises/01_LightandColor.md",
+    "_Exercises/00_signup.md",
+    "_Exercises/07_p5dj.md",
+    "_Exercises/06_poetics.md",
+    "_Exercises/04_Repetition.md",
+    "_Exercises/03_pongforone.md",
+    "_Exercises/02_face.md",
     "_Projects/02_narrative.md",
     "_Projects/03_performance.md",
     "_Projects/01_time.md",
@@ -215,19 +224,11 @@
     "Narrative Holder.md",
     "schedule.md",
     "Projects Holder.md",
-    "_Exercises/06_poetics.md",
     "_site/Projects Holder.md",
     "_site/Untitled.md",
     "_site/Narrative Holder.md",
-    "_Exercises/03_pongforone.md",
-    "_Exercises/01_LightandColor.md",
-    "_Exercises/00_signup.md",
-    "_Exercises/02_face.md",
-    "_Exercises/04_Repetition.md",
-    "_Exercises/07_p5dj.md",
     "_site/Attachments/Pasted image 20260827124028.png",
     "Attachments/Pasted image 20260827124028.png",
-    "_Tutorials/00_procedural_experiments.md",
     "_site/Attachments/Pasted image 20260827121243.png",
     "Attachments/Pasted image 20260827121243.png",
     "_site/Attachments/Pasted image 20260827121117.png",
@@ -244,7 +245,6 @@
     "_site/assets/main.css.map",
     "assignments.md",
     "resources.md",
-    "_Tutorials/01_p5.md",
     "_layouts/table.html",
     "_layouts/page copy.html",
     "_site/assets/responses/exercise.js",
