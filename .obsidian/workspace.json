@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_culture.md",
+                "file": "_Tutorials/01_p5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02_culture"
+              "title": "01_p5"
             }
           }
         ]
@@ -185,15 +185,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "20c79257f79b19fb",
+  "active": "4ee3a776007ffa5e",
   "lastOpenFiles": [
+    "_Tutorials/00_procedural_experiments.md",
+    "_Exercises/00_signup.md",
+    "_Inclass/04_dots.md",
+    "_Inclass/03_paint.md",
+    "_Inclass/02_drawingincolor.md",
+    "_Inclass/01_Drawing.md",
+    "_Inclass/00_conditiondrawing.md",
+    "02_culture.md",
     "03_power.md",
     "index.md",
     "_Projects/03_performance.md",
-    "_Tutorials/00_procedural_experiments.md",
     "_Tutorials/01_p5.md",
     "_Exercises/01_LightandColor.md",
-    "_Exercises/00_signup.md",
     "_Exercises/07_p5dj.md",
     "_Exercises/06_poetics.md",
     "_Exercises/04_Repetition.md",
@@ -207,24 +213,18 @@
     "Projects Holder.md",
     "_site/Projects Holder.md",
     "_site/Untitled.md",
-    "_site/Narrative Holder.md",
     "_site/Attachments/Pasted image 20260827124028.png",
     "Attachments/Pasted image 20260827124028.png",
     "_site/Attachments/Pasted image 20260827121243.png",
     "Attachments/Pasted image 20260827121243.png",
     "_site/Attachments/Pasted image 20260827121117.png",
     "Attachments/Pasted image 20260827121117.png",
-    "_Tutorials/13_git.md",
-    "04_play.md",
     "_site/Attachments/Pasted image 20260827120025.png",
     "Attachments/Pasted image 20260827120025.png",
     "_site/Attachments/Pasted image 20260827115159.png",
     "Attachments/Pasted image 20260827115159.png",
-    "_Tutorials/09_capture.md",
-    "Code.md",
     "_site/assets/main.scss",
     "_site/assets/main.css.map",
-    "assignments.md",
     "_layouts/table.html",
     "_layouts/page copy.html",
     "_site/assets/responses/exercise.js",

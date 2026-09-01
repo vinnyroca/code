@@ -53,9 +53,9 @@ In short:
 
 > In 2013, I went on twenty dates with people I met on an online dating site called OkCupid. I used my phone to stream these dates to the Internet. I paid remote workers on a site called Amazon Mechanical Turk to watch, interpret what was happening, and direct me what to do or say next. These directions were communicated to me via text message and I had to perform them immediately
 
-![](/Attachments/Pasted%20image%2020260827105617.png)
+![Still for Social Turkers](/Attachments/Pasted%20image%2020260827105617.png)
 
-![](/Attachments/Pasted%20image%2020260827105608.png)
+![Quiz from Social Turkers](/Attachments/Pasted%20image%2020260827105608.png)
 
 
 
@@ -70,20 +70,20 @@ When you prompt a generative system to create and image of a Loser or Failure, h
 
 > _ImageNet Roulette_ is trained on the “person” categories from a dataset called ImageNet (developed at Princeton and Stanford Universities in 2009), one of the most widely used training sets in machine learning research and development.
 
-![](/Attachments/Pasted%20image%2020260827110202.png)
+![Still of Imagenet](/Attachments/Pasted%20image%2020260827110202.png)
 
 
 > **ImageNet Roulette regularly returns racist, misogynistic and cruel results.**
 
-![](/Attachments/Pasted%20image%2020260827111058.png)
+![Still of ImageNet Roullette](/Attachments/Pasted%20image%2020260827111058.png)
 
 Who determines social categories such as race or gender?
 - Is this a matter of more ethical engineers?
 - Or is this a question of the digital that cannot be overcome, should technology be used to classify people into different groups, no matter how nuanced the classification is?
 
-![](/Attachments/Pasted%20image%2020260827111508.png)
+![Screen shot of study on Deep Nerual Networks are more Accurate than humans at detecting sexual orientation from facial images by yilun wang and michal kosinski](/Attachments/Pasted%20image%2020260827111508.png)
 
-![](/Attachments/Pasted%20image%2020260827111603.png)
+![Image from study showing grid of faces](/Attachments/Pasted%20image%2020260827111603.png)
 
 **Forces Fluidity into Digitality**
 
@@ -100,11 +100,11 @@ Computer access limited to scientist, mathematicians, researchers.
 As a result, most are was made by researchers with access to government, corporate, or university computers. 
 ### Frieder Nake
 
-![](/Attachments/Pasted%20image%2020260827114006.png)
+![computer painting by frieder nake](/Attachments/Pasted%20image%2020260827114006.png)
 
 13/9/65 Nr. 2 ("Hommage à Paul Klee")
 
-![](/Attachments/Pasted%20image%2020260827113727.png)
+![image of zuse graphomat z64 making a drawing](/Attachments/Pasted%20image%2020260827113727.png)
 
 > The ZUSE Graphomat Z64 was a flatbed drawing machine of high precision. Its engineer, famous computer pioneer [Konrad Zuse](http://dada.compart-bremen.de/item/agent/820 "goto 'Konrad Zuse'"), had originally intended it to be used for the production of maps and for land registration purposes. Both [Georg Nees](http://dada.compart-bremen.de/item/Award/27 "goto 'Georg Nees'") and [Frieder Nake](http: "Frieder Nake") did their first computer art pieces on the Graphomat. This historic fact may be seen as a case of an unintended use of a technical innovation.
 
@@ -112,11 +112,11 @@ As a result, most are was made by researchers with access to government, corpora
 
 **Artists interested in systems, not objects**
 
-![](/Attachments/Pasted%20image%2020260827114431.png)
+![hand written sketch use to program a computer by vera molnar](/Attachments/Pasted%20image%2020260827114431.png)
 
 Random Distribution of 4 Elements (to progr. Computer), by Vera Molnar, Ink and graphite on paper, 1971.
 
-![](/Attachments/Pasted%20image%2020260827114513.png)
+![Drawing by vera molnar](/Attachments/Pasted%20image%2020260827114513.png)
 
 ‘Interruptions’, plotter drawing, by Vera Molnar, 1969, Paris, France. Museum no. E.269-2011. © Victoria and Albert Museum, London
 
@@ -127,13 +127,13 @@ Begins with machine imaginaire
 
 ### Hans Haacke
 
-![](/Attachments/default.jpg)
+![condensation cube by hans haacke](/Attachments/default.jpg)
 
 Condensation Cube, 1963-1967
 
-![](/Attachments/Pasted%20image%2020260827115159.png)
+![news by hans haacke](/Attachments/Pasted%20image%2020260827115159.png)
 
-![](Attachments/Pasted%20image%2020260827114932.png)
+![new by hans haacke](Attachments/Pasted%20image%2020260827114932.png)
 
 Hans Haacke, News (1969:2008); Photo: 2023 Hans Haacke: Artists Rights Society (ARS), New York:VG Bild-Kunst, Bonn; Courtesy of the artist and Paula Cooper Gallery, New York
 
@@ -152,7 +152,7 @@ Alternative art spaces on the web, peer to peer networks
 [Website Link](http://www.teleportacia.org/war/)
 ## Jodi
 
-![](/Attachments/Pasted%20image%2020260827120025.png)
+![jodi website](/Attachments/Pasted%20image%2020260827120025.png)
 
 [Website Link](https://wwwwwwwww.jodi.org/) 
 
@@ -170,9 +170,9 @@ Net Art Anthology
 Programming Tools for Artists:
 ### Processing, Ben Fry and Casey Reas, 2001
 
-![](/Attachments/Pasted%20image%2020260827121117.png)
+![processing interface](/Attachments/Pasted%20image%2020260827121117.png)
 
-![](/Attachments/Pasted%20image%2020260827121243.png)
+![work by casey raes](/Attachments/Pasted%20image%2020260827121243.png)
 
 ### Some Artists/Artworks
 

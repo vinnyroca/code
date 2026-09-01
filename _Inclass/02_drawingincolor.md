@@ -7,7 +7,7 @@ permalink: /Inclass/02_drawingincolor/
 
 ## Description 
 
-In addition to basic shapes, use some or all of the follow functions to build on your previous drawing with color! Experiment with Alpha and RGB values.
+In addition to basic shapes, use some or all of the follow functions to build on your previous robot drawing with color! Experiment with Alpha and RGB values.
 
 1. `noFill()`
 2. `noStroke()`
@@ -15,4 +15,4 @@ In addition to basic shapes, use some or all of the follow functions to build on
 4. `stroke()`
 5. `background()`
 
-Refer to the lecture notes for a refresher on the above function.
+Refer to the lecture notes for a refresher on the above functions.
