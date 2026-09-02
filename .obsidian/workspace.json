@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Tutorials/01_p5.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01_p5"
+              "title": "index"
             }
           }
         ]
@@ -187,19 +187,21 @@
   },
   "active": "4ee3a776007ffa5e",
   "lastOpenFiles": [
-    "_Tutorials/00_procedural_experiments.md",
+    "Code.md",
+    "index.md",
+    "schedule.md",
+    "_Exercises/01_LightandColor.md",
     "_Exercises/00_signup.md",
+    "_Inclass/00_conditiondrawing.md",
+    "_Tutorials/01_p5.md",
+    "_Tutorials/00_procedural_experiments.md",
     "_Inclass/04_dots.md",
     "_Inclass/03_paint.md",
     "_Inclass/02_drawingincolor.md",
     "_Inclass/01_Drawing.md",
-    "_Inclass/00_conditiondrawing.md",
     "02_culture.md",
     "03_power.md",
-    "index.md",
     "_Projects/03_performance.md",
-    "_Tutorials/01_p5.md",
-    "_Exercises/01_LightandColor.md",
     "_Exercises/07_p5dj.md",
     "_Exercises/06_poetics.md",
     "_Exercises/04_Repetition.md",
@@ -209,10 +211,8 @@
     "_Projects/01_time.md",
     "_Projects/04_game.md",
     "Narrative Holder.md",
-    "schedule.md",
     "Projects Holder.md",
     "_site/Projects Holder.md",
-    "_site/Untitled.md",
     "_site/Attachments/Pasted image 20260827124028.png",
     "Attachments/Pasted image 20260827124028.png",
     "_site/Attachments/Pasted image 20260827121243.png",

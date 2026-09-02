@@ -17,7 +17,7 @@ Vinny Roca, Scripps College
 [vroca@scrippscollege.edu](mailto:vroca@scrippscollege.edu)
 
 ### Office Hours:
-By appointment on Tuesday  4:00 - 5:00   
+By appointment on Tuesday/Thursday  4:00 - 5:00   
 <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/vroca-scrippscollege/30min'});return false;">Schedule Office Hours</a>
 <!-- Calendly link widget begin -->
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
