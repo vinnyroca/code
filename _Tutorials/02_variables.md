@@ -53,10 +53,18 @@ Class Overview:
 
 `draw() `: The continuous loop of our p5 sketch.
 
-<figure> <img src = "/assets/images/code_02_flow_01.png"><figcaption>Setup condition of a tennis match (Serena vs. Venus Williams, 2027)</figcaption></figure>
-<figure> <img src = "/assets/images/code_02_flow_02.gif"><figcaption>Draw condition of a tennis match (Serena vs. Venus Williams, 2027)</figcaption></figure>
-<figure> <img src = "/assets/images/code_02_flow_03.png"><figcaption>Setup condition of a Pong</figcaption></figure>
-<figure> <img src = "/assets/images/code_02_flow_04.gif"><figcaption>Draw condition of a Pong</figcaption></figure>
+![Image of the start of a tennis match](/assets/images/code_02_flow_01.png)  
+Setup condition of a tennis match (Serena vs. Venus Williams, 2017)
+
+![Animated gif of a tennis match](/assets/images/code_02_flow_02.gif)  
+Draw condition of a tennis match (Serena vs. Venus Williams, 2017)
+
+![Still image of the start of pong](/assets/images/code_02_flow_03.png)  
+Setup condition of a Pong
+
+![Animated gif of pong playing](/assets/images/code_02_flow_04.gif)  
+Draw condition of a Pong
+
 <div id="01"></div>
 <small>Setup condition of p5 sketch</small>
 
@@ -65,7 +73,7 @@ Class Overview:
 
 ## Code Blocks
 
-A code block is a section of code that is grouped together. Code blocks can appear as **function** and as other groupings of code such as **conditional statements** or **classes**.
+A code block is a section of code that is grouped together. Code blocks can appear as **functions** and as other groupings of code such as **conditional statements** or **classes**.
 
 Example:
 
@@ -256,7 +264,9 @@ Variables are named storage locations in our computer's memory where we can stor
 
 `mouseX` and `width` are both named storage location where p5 is constantly updating their associated values.
 
-<figure> <img src = "/assets/images/code_02_variable_01.png" width = "400px"><figcaption>Simplified drawing of variables in memory</figcaption></figure>
+![simplified illustration of memory within computer](/assets/images/code_02_variable_01.png)
+
+Simplified drawing of variables in memory
 
 ## Making our Own Variables
 
@@ -437,7 +447,7 @@ function draw(){
 
 
 
-We can change how fast the circle is moving by the changing incrementation value.
+We can change how fast the circle is moving by changing the incrementation value.
 
 ```java
 circleX += 10;
@@ -547,5 +557,5 @@ mousePressed(){
 
 
 
-
+s
 

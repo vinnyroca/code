@@ -244,7 +244,7 @@ function draw() {
 
 ### Example: Bouncing Ball
 
-In this example, the circle moves at the opposite speed when it hits the the edge of our sketch.
+In this example, the circle moves at the opposite speed when it hits the edge of our sketch.
 
 ```js
 let x;

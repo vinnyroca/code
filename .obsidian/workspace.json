@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Tutorials/01_p5.md",
+                "file": "_Tutorials/03_flow.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "01_p5"
+              "title": "03_flow"
             }
           }
         ]
@@ -76,8 +76,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -186,17 +185,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "5566b12f53f84020",
+  "active": "4ee3a776007ffa5e",
   "lastOpenFiles": [
+    "_Tutorials/02_variables.md",
+    "_Exercises/01_LightandColor.md",
+    "_Exercises/00_signup.md",
+    "_Tutorials/01_p5.md",
     "_site/Attachments/Pasted image 20260902224402.png",
     "Attachments/Pasted image 20260902224402.png",
     "assets/images/code_01_square.png",
-    "_Tutorials/01_p5.md",
     "schedule.md",
     "index.md",
     "Code.md",
-    "_Exercises/01_LightandColor.md",
-    "_Exercises/00_signup.md",
     "_Inclass/00_conditiondrawing.md",
     "_Tutorials/00_procedural_experiments.md",
     "_Inclass/04_dots.md",
@@ -223,7 +223,6 @@
     "_site/Attachments/Pasted image 20260827121117.png",
     "Attachments/Pasted image 20260827121117.png",
     "_site/Attachments/Pasted image 20260827120025.png",
-    "Attachments/Pasted image 20260827120025.png",
     "_site/assets/main.scss",
     "_site/assets/main.css.map",
     "_layouts/table.html",
