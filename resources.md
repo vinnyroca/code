@@ -23,6 +23,7 @@ permalink: /resources/
 - [p5.js Cheat Shat - Ben Moren](https://cdn.glitch.me/5dd99b18-3ebb-45c5-90fb-b4b67dc2e128%2Fp5cheatsheet.pdf)
 - [HTML Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference)
 - [CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+- [Programming Design Systems](https://programmingdesignsystems.com/) A great resource for learning graphic design with p5.js
 
 - More advanced: [The Nature of Code](https://natureofcode.com/)
 - Further Reading: [Aesthetic Programming](https://aesthetic-programming.net/)
