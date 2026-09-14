@@ -1,17 +1,8 @@
 ---
 layout: page
-title: Light and Color
+title: Brush Tool
 permalink: /Exercises/02_brush/
 ---
-
----
-layout: page
-title: Pong for One
-permalink: /Exercises/03_pongforone/
----
-
-
-
 
 
 # Brush Tool
@@ -19,7 +10,7 @@ permalink: /Exercises/03_pongforone/
 
 ## Description
 
-1. Explore the program Kid Pix on the Internet Archive. Explore the many brushes available.
+1. Explore the program [Kid Pix ](https://archive.org/details/kid-pix-studio_202110)on the Internet Archive. Explore the many brushes available.
 2. Using p5.js, create 1 or 2 custom brushes inspired by Kid Pix. Your brush should make use of custom variables.
 
 
