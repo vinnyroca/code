@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ball Answer.md",
+                "file": "schedule.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ball Answer"
+              "title": "schedule"
             }
           }
         ]
@@ -187,9 +187,9 @@
   },
   "active": "4ee3a776007ffa5e",
   "lastOpenFiles": [
+    "Ball Answer.md",
     "Attachments/download.png",
     "assignments.md",
-    "Ball Answer.md",
     "Code.md",
     "_Exercises/02_brush.md",
     "resources.md",
@@ -222,7 +222,6 @@
     "Attachments/Pasted image 20260827121243.png",
     "_site/Attachments/Pasted image 20260827121117.png",
     "Attachments/Pasted image 20260827121117.png",
-    "_site/Attachments/Pasted image 20260827120025.png",
     "_site/assets/main.scss",
     "_site/assets/main.css.map",
     "_layouts/table.html",

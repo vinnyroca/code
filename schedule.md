@@ -136,14 +136,15 @@ Due:
 - Begin work on Text and Image project
 - Culture and Ideology Response
 
-### Thursday 10/15
+<h3 style="color: rgb(218, 112, 44)">Thursday 10/15: No Class (I'll be at a conference)</h3>
 
-- Crit: Text and Image
+- Meet in class to continue work on project
 - **2 Points of Extra Credit:** Attend Talk: [Pepper Lecture: Artist Isabel Beavers & Nora N. Khan in Conversation](https://www.eventbrite.com/e/pepper-lecture-artist-isabel-beavers-nora-n-khan-in-conversation-tickets-1999041336450?aff=ebdssbcategorybrowse) @ Pitzer College, Benson Auditorium, October 15th. 430pm-630pm. Submit 200 word reflection to Canvas. 
 
 Due:
 
-- Text and Image project
+- Continue work on Text and Image project
+
 
 ## Week 8
 
@@ -167,14 +168,23 @@ Due:
 
 ### Tuesday 10/27
 
+- Crit: Text and Image
+
+Due:
+
+- Text and Image project
+
+### Thursday 10/29
+
 - Tutorial: Sound
 
 Due:
 
+
 - Nothing Due Today!
+## Week 10
 
-### Thursday 10/29
-
+### Tuesday 11/3
 
 - Tutorial: Capture
 
@@ -182,9 +192,7 @@ Due:
 
 - p5 DJ exercise
 
-## Week 10
-
-### Tuesday 11/3
+### Thursday 11/5
 
 - Discussion
 - Studio Time: Performance
@@ -193,7 +201,9 @@ Due:
 
 - Power and Surveillance Response
 
-### Thursday 11/5
+## Week 11
+
+### Tuesday 11/10
 
 - Studio Time: Performance
 
@@ -201,9 +211,7 @@ Due:
 
 - Continue work on Performance project 
 
-## Week 11
-
-### Tuesday 11/10
+### Thursday 11/12
 
 - Crit: Performance
 
@@ -211,7 +219,9 @@ Due:
 
 - Performance Project
 
-### Thursday 11/12
+## Week 12
+
+### Tuesday 11/17
 
 - Tutorial: Classes and Objects
 - Assign: Game Ring
@@ -219,20 +229,19 @@ Due:
 Due:
 
 - Read Game Ring project description
+### Thursday 11/19
 
-## Week 12
-
-### Tuesday 11/17
-
-- Tutorial: HTML
+- Tutorial: Github Codespaces and HTML
 
 Due:
 
 - Game Ring game prototype
 - Watch Laurel Schwulst's [Basics of HTML](https://www.youtube.com/watch?v=CkzbI1Tv_rQ)  
-- Download [Visual Studio Code](https://code.visualstudio.com/Download)
+- Create a Github account
 
-### Thursday 11/19
+## Week 13
+
+### Tuesday 11/24
 
 - Tutorial: CSS
 
@@ -241,18 +250,7 @@ Due:
 - Watch Laurel Schwulst's [Basics of CSS](https://www.youtube.com/watch?v=BUZIaTHm_oE)
 - Game Ring HTML Mockup
 
-## Week 13
-
-### Tuesday 11/24
-
-- Tutorial: Github Pages
-- Studio Time: Game Ring
-
-Due:
-
-- Nothing Due Today!
-
-<h3 style="color: rgb(218, 112, 44)">Tuesday 11/26: Break</h3>
+<h3 style="color: rgb(218, 112, 44)">Thursday 11/26: Break</h3>
 
 - No Class
 
