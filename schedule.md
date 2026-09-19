@@ -136,7 +136,8 @@ Due:
 - Begin work on Text and Image project
 - Culture and Ideology Response
 
-<h3 style="color: rgb(218, 112, 44)">Thursday 10/15: No Class (I'll be at a conference)</h3>
+
+<h3 style="color: rgb(218, 112, 44)">Thursday 10/15: I'll be at a conference</h3>
 
 - Meet in class to continue work on project
 - **2 Points of Extra Credit:** Attend Talk: [Pepper Lecture: Artist Isabel Beavers & Nora N. Khan in Conversation](https://www.eventbrite.com/e/pepper-lecture-artist-isabel-beavers-nora-n-khan-in-conversation-tickets-1999041336450?aff=ebdssbcategorybrowse) @ Pitzer College, Benson Auditorium, October 15th. 430pm-630pm. Submit 200 word reflection to Canvas. 
@@ -229,6 +230,7 @@ Due:
 Due:
 
 - Read Game Ring project description
+
 ### Thursday 11/19
 
 - Tutorial: Github Codespaces and HTML
