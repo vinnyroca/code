@@ -22,7 +22,7 @@ This project asks you to consider what other systems can you design to measure a
 
 ### Part 1: In Search of Personalized Time
 
-- Browse through the website for Taeyoon Choi & E Roon Kang’s project, [In Search of Personalized Time](http://i-s-o-p-t.com/about/index.htmll)
+- Browse through the website for Taeyoon Choi & E Roon Kang’s project, [In Search of Personalized Time](http://i-s-o-p-t.com/about/index.html)
 - Make note of anything that strikes you.
 
 ### Part 2: Your Time
