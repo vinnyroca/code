@@ -134,7 +134,7 @@ Due:
 Due:
 
 - Begin work on Text and Image project
-- Culture and Ideology Response
+- Digital Text and Image Response
 
 
 <h3 style="color: rgb(218, 112, 44)">Thursday 10/15: I'll be at a conference</h3>

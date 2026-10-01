@@ -5,10 +5,9 @@ permalink: /Tutorials/06_text/
 ---
 <script src="/assets/sketches/p5.js"></script>
 <script src="/assets/sketches/code_06/code_06_01.js"></script>
-<script src="/assets/sketches/code_06/code_06_02.js"></script>
 # Text and Arrays
 
-These notes will cover the essentials of creating text and using arrays in p5.js. All examples will make use of a poem by the poet Jane Wong entitled *10 ALTERNATE ENDINGS* from the of "Yalobusha Review".
+These notes will cover the essentials of creating text and using arrays in p5.js. All examples will make use of a poem by the poet Jane Wong entitled *10 ALTERNATE ENDINGS* from the *Yalobusha Review*.
 
 ***10 ALTERNATE ENDINGS*** by **Jane Wong** (2019)
 
@@ -38,7 +37,7 @@ We can draw text to our canvas in p5.js by using the `text()` function.
 
 The `text(a,b,c,d,e)` function takes in three to five parameters:
 
-- a: text to be displayed, can by a string or other variable such as a number
+- a: text to be displayed, can be a string or other variable such as a number
 - b: x-coordinate of text box
 - c: y-coordinate of text box
 
@@ -137,6 +136,7 @@ function draw() {
   text(sentence, 200, 200, 300, 300);
 }
 ```
+
 ## textAlign()
 
 `textAlign()` will set the alignment of text within p5.js. `textAlign()` different effects depending on how many parameters are within the text function.
@@ -240,7 +240,7 @@ Adding a font is p5.js is three step process:
 
 1. Download a font as a OpenType (.otf) or TrueType (.ttf) file.
 2. Add the font to your p5.js sketch
-3. Load the font in your sketch using the preload() function.
+3. Load the font in your sketch using async and await function.
 
 ### Downloading Fonts
 
@@ -266,21 +266,48 @@ You can rename your font by right clicking on the font and selecting “Rename.�
 
 ![](/assets/images/6/06_00_03.png)
 
-### Load a Font in your P5.js Sketch
+## Async and Await
 
-To load a font and your sketch, you first need to create the `preload()` function. The `preload()` function is called before your sketch runs, allowing you to load in assets you need in your sketch.
+To load a font and your sketch, you first need to learn about Async and Await.
 
-`preload()` [Reference](https://p5js.org/reference/p5/preload/).
+`async_await` [Reference](https://p5js.org/reference/p5/async_await/).
 
-We can load a font in our `preload() ` function by using the function `loadFont()`. This function will load our font into our scene.
+Async and Await allow us to write asynchronous code, or, in other words, code that starts and then finishes at a later moment without stopping the rest of your program. In p5, we can use Async and Await to load in large amounts of data at the start of our p5 sketch. What this will look like practically in our sketch is that we will modify a few of our functions with the keyword `await`. This will tell our program to wait for these functions to finish before completing the rest of our program. 
+
+In our particular case, we want to load the font `SpaceGrotesk.ttf` at the start of our sketch before the rest of our code runs. To do this, we can use the function `loadFont()` and provide this function with the name of our font file as a string. We can also set this function equal to our font variable:
 
 ```js
 let spaceGroteskFont;
 
-function preload() {
+function setup() {
   spaceGroteskFont = loadFont("SpaceGrotesk.ttf");
 }
 ```
+
+`loadFont()` (as well as other load functions which will talk about later in the course), are asynchronous functions. Since we are loading large amounts of data, these functions therefore can take an undetermined amount of time to finish. In order to prevent this from stopping our program from running (imagine if circle() took five minutes to run), we can instead wait for all of the load functions to finish before we begin our sketch.
+
+To enable this in our code, we need to use the keyword `await` before our `loadFont()` function:
+
+```js
+let spaceGroteskFont;
+
+function setup() {
+  spaceGroteskFont = await loadFont("SpaceGrotesk.ttf");
+}
+```
+
+Then, since parts of the setup function are running asynchronously, we need to set our `setup()` function to be an asynchronous function using the keyword `async`:
+
+```js
+let spaceGroteskFont;
+
+async function setup() {
+  spaceGroteskFont = await loadFont("SpaceGrotesk.ttf");
+}
+```
+
+
+## Set our Font
 
 We can set our font in our p5.js sketch by using the function textFont(), providing the variable of our preloaded font.
 
@@ -289,18 +316,15 @@ textFont(spaceGroteskFont);
 ```
 ### Example:
 
-![](/assets/images/6/06_00_06.png)
+![](/Attachments/Pasted%20image%2020260930223103.png)
 
 ```js
 let spaceGroteskFont;
 let sentence = "Rosehips bloom in January, pink jellyfish in shattering snow";
 
-function preload() {
-  spaceGroteskFont = loadFont("SpaceGrotesk.ttf");
-}
-
-function setup() {
-  createCanvas(400, 400);
+async function setup() {
+  createCanvas(400,400);
+  spaceGroteskFont = await loadFont("SpaceGrotesk.ttf");
 }
 
 function draw() {
@@ -346,7 +370,7 @@ let poem = [
 
 ### Index
 
-Now that I have an array with lines of poem, I can access each element in that array. An element’s position within an array is called its **index**. When counting elements within an array, the first element always has an **index** of **0**. This continues with the second element having an index of one and so on.
+Now that I have an array with lines of a poem, I can access each element in that array. An element’s position within an array is called its **index**. When counting elements within an array, the first element always has an **index** of **0**. This continues with the second element having an index of one and so on.
 
 If I wanted to print one particular line of my poem, I can access an element in my array by providing its index. I do this by calling the name of my array followed by open and closed brackets `[]` containing the index number I want to access.
 
@@ -356,7 +380,7 @@ For example, to call the third line of my poem I could code:
 poem[2];
 ```
 
-![](/assets/images/6/06_00_07.png)
+![](/Attachments/Pasted%20image%2020260930223249.png)
 
 ```js
 let poem = [
@@ -402,7 +426,7 @@ In order to limit the amount my index is increased by, I can use the length prop
 ```js
 poem.legth
 ```
-This will return the total length of my array, or, in other words, how many elements are in my array. In the case of `poem`, `poem.length` would return a value 4.
+This will return the total length of my array, or, in other words, how many elements are in my array. In the case of `poem`, `poem.length` would return a value of 4.
 
 I can use this length value to make sure my index variable never goes beyond the length of my array:
 
@@ -415,7 +439,7 @@ function mousePressed() {
   }
 }
 ```
-In this example, I am checking to see if my index is less than then length minus 1. The reason I use minus 1, is that the number of the last index in the array will always be equal to the total length minus 1. For example, since our poem has 4 lines, it has a length of 4 and the index of the last element is 3.
+In this example, I am checking to see if my index is less than length minus 1. The reason I use minus 1, is that the number of the last index in the array will always be equal to the total length minus 1. For example, since our poem has 4 lines, it has a length of 4 and the index of the last element is 3.
 
 <div id="01"></div>
 
@@ -452,17 +476,18 @@ function mousePressed() {
 }
 ```
 
-## Arrays and Interaction
+## Arrays and Iteration
 
-Since elements of an array are ordered and can be accessed with an index value, I can use a for loop to iterate over my array to access all of its elements. I could use a for loop to draw all of the lines of my poem using a variable as the index value, check to see if it is less than the length value of my array.
+Since elements of an array are ordered and can be accessed with an index value, I can use a for loop to iterate over my array to access all of its elements. I could use a for loop to draw all of the lines of my poem using a variable as the index value, checking to see if it is less than the length value of my array.
 
 ```js
   for (let i = 0; i < poem.length; i++) {
     text(poem[i], 20, y);
+    y = y + 20;
   }
 ```
 
-![](/assets/images/6/06_00_08.png)
+![](/Attachments/Pasted%20image%2020260930223541.png)
 
 ```js
 let poem = [
@@ -489,108 +514,3 @@ function draw() {
   }
 }
 ```
-## Slice, Splice and Push
-
-So far we have been using an array with a preset list of values, however, often when coding with arrays, we want to be able to add or remove elements to create dynamic changing arrays.
-
-As an example, let’s say to print this poem in a random order to create some algorithmic poetry.
-
-The first thing I need to do is to create a new variable that will hold my poem. This variable will be an empty array.
-
-```js
-let randomPoem = [];
-```
-I can use `mousePressed()` to create my random poem.
-
-The way I can create a random poem is by having my empty array for my new poem, called `randomPoem` as well a temporary array that contains the values of my original poem.
-
-In order to create the poem, I need to add lines to my new poem randomly, while also removing that same line from my temporary poem array until my temporary poem is empty.
-
-To create a temporary copy of my original poem that I can use to edit, I can use the array function `slice()`. `slice()` will make a copy of an array. 
-
-```js
-let tempPoem = poem.slice();
-```
-
-I can choose a random line for my poem by wrapping my `random()` function in the function `int()`, which will convert the decimal result of my random into a whole number or integer.
-
-```js
-let randomLine = int(random(0, tempPoem.length));
-```
-I can then add that random line to my `randomPoem` and remove it from my `tempPoem`.
-
-To add an element to an array, I can use the function `push()`, which will push an element into the end of my array. We can give a parameter to `push()` to tell it what to add to the array.
-
-```js
-randomPoem.push(tempPoem[randomLine]);
-```
-
-I can then remove that element from my temporary array by using the function `splice()`. For parameters, I need to tell splice the index I want to remove, and how many elements I want to remove.
-
-```js
-tempPoem.splice(randomLine, 1);
-```
-If I wrap these lines in a for loop, I can look at the amount of lines of my original poem, and add these lines to my new poem randomly, while also removing them from my temporary poem to make sure no lines are repeated.
-
-```js
-function mousePressed() {
-  randomPoem = [];
-  let tempPoem = poem.slice();
-
-  for (let i = 0; i < poem.length; i++) {
-    let randomLine = int(random(0, tempPoem.length));
-    randomPoem.push(tempPoem[randomLine]);
-    tempPoem.splice(randomLine, 1);
-  }
-}
-```
-
-
-After adding some text styling and drawing my text, I can get this result:
-
-<div id="02"></div>
-
-<small> Click to generate poem </small>
-
-```js
-let poem = [
-  "The flattened road kill squirrel puffs back to life",
-  "My father never leaves and I sprout more ventricles in my heart",
-  "I love so richly, I spare millions of pennies in my trust",
-  "Rosehips bloom in January, pink jellyfish in shattering snow",
-  "My heart becomes a jar of wildflower honey, does not amber",
-  "Everyone is so well fed, they cry greasy tears",
-];
-
-let randomPoem = [];
-
-function setup() {
-  createCanvas(400, 200);
-}
-
-function draw() {
-  background(" #2E6F40");
-  noStroke();
-  fill("#CFFFDC");
-  textAlign(LEFT, CENTER);
-  textLeading(12);
-  textSize(12);
-
-  for (let i = 0; i < randomPoem.length; i++) {
-    y = map(i, 0, randomPoem.length - 1, 50, height - 50);
-    text(randomPoem[i], 20, y, 380);
-  }
-}
-
-function mousePressed() {
-  randomPoem = [];
-  let tempPoem = poem.slice();
-
-  for (let i = 0; i < poem.length; i++) {
-    let randomLine = int(random(0, tempPoem.length));
-    randomPoem.push(i + 1 + ": " + tempPoem[randomLine]);
-    tempPoem.splice(randomLine, 1);
-  }
-}
-```
-

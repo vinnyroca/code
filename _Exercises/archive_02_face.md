@@ -1,8 +1,4 @@
----
-layout: page
-title: Face Generator
-permalink: /Exercises/02_face/
----
+
 
 # Face Generator
 
