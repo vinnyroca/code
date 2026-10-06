@@ -5,17 +5,13 @@ permalink: /Tutorials/07_functions/
 ---
 <script src="/assets/sketches/p5.js"></script>
 
-<script src="/assets/sketches/code_07/code_07_00.js"></script>
-<script src="/assets/sketches/code_07/code_07_01.js"></script>
-<script src="/assets/sketches/code_07/code_07_02.js"></script>
-
 # Images and Functions
 
 ## Image
 
 ### loadImage()
 
-To load an image into p5.js, we need to use the `preload()` and `loadImage()` function.
+To load an image into p5.js, we need to use the `loadImage()` function.
 
 Begin by uploading your image file to your p5.js sketch. 
 
@@ -23,19 +19,20 @@ I’ll be using this image named rainbow.png. This image was sourced from the [P
 
 ![](/assets/images/7/07_01.png)
 
-After the image has been uploaded, use the `preload()` and `loadImage()` function to load in your image.
+After the image has been uploaded, use `async`, `await` and `loadImage()` function to load in your image.
 
 ```js
 let img;
 
-function preload() {
-  loadImage("rainbow.png");
+async function setup() {
+  createCanvas(400, 400);
+  img = await loadImage("rainbow.png");
 }
 ```
 
 ### image()
 
-To draw an image to our screen, we can use the `image()` function. The `image()` function in p5.js and allows for a lot of customization through its many parameters. We’ll be focusing on the first five parameters.
+To draw an image to our screen, we can use the `image()` function. The `image()` function in p5.js  allows for a lot of customization through its many parameters. We’ll be focusing on the first five parameters.
 
 `image(img, x, y, width, height)`
 
@@ -54,12 +51,9 @@ To draw an image to our screen, we can use the `image()` function. The `image()`
 ```js
 let img;
 
-function preload() {
-  img = loadImage("rainbow.png");
-}
-
-function setup() {
+async function setup() {
   createCanvas(400, 400);
+  img = await loadImage("rainbow.png");
 }
 
 function draw() {
@@ -81,13 +75,11 @@ image(img, 0, 0, img.width, img.height);
 ```js
 let img;
 
-function preload() {
-  img = loadImage("rainbow.png");
+async function setup() {
+  createCanvas(400, 400);
+  img = await loadImage("rainbow.png");
 }
 
-function setup() {
-  createCanvas(400, 400);
-}
 
 function draw() {
   background(0);
@@ -113,19 +105,14 @@ Using `imageMode(CENTER)` will place the center of our image on the provided x a
 ```js
 let img;
 
-function preload() {
-  img = loadImage("rainbow.png");
-}
-
-function setup() {
+async function setup() {
   createCanvas(400, 400);
+  img = await loadImage("rainbow.png");
 }
 
 function draw() {
   background(0);
-
   imageMode(CENTER);
-
   image(img, width / 2, height / 2, 200, 200);
 }
 ```
@@ -146,10 +133,10 @@ or
 rectMode(CENTER);
 ```
 
-We also be writing p5.js defined functions such as:
+We also have been writing p5.js defined functions such as:
 
 ```js
-function preload(){
+function setup(){
 
 }
 ```
@@ -161,6 +148,7 @@ function draw(){
 
 }
 ```
+
 When using p5.js and JavaScript, or other programming languages, we can also write our own functions. Why would we write our own functions if we can just write our code in preexisting functions within the p5.js library such as `draw()`, `setup()`, or` mousePressed()`?
 
 There are two main reasons for creating your own functions in programming: **Modularity** and **Reusability**
@@ -175,31 +163,29 @@ There are two main reasons for creating your own functions in programming: **Mod
 1. Use the keyword `function`
 2. Name your function (typically camelCase)
 3. Open and closed parentheses `()`
-4. Open and close curly brackets `[]`
+4. Open and close curly brackets `{}`
 5. Write the code of your function
 
 ### Example:
 
-A function named hiddenText
+A function named button
 
 ```js 
-function hiddenText(){
+function button(){
 
 }
 ```
-One of the main uses of function is modularity, or, in other words, separating out code into its own functions to make our code both modular and more readable.
 
-For example, let’s say I have this code that draws an image, and places hidden text on that image I need to mouse over.
+One of the main uses of functions is modularity, or, in other words, separating out code into its own functions to make our code both modular and more readable.
+
+For example, let’s say I have this code that draws an image, and places a button on that image I need to mouse over.
 
 ```js
 let img;
 
-function preload() {
-  img = loadImage("rainbow.png");
-}
-
-function setup() {
+async function setup() {
   createCanvas(400, 400);
+  img = await loadImage("rainbow.png");
 }
 
 function draw() {
@@ -207,44 +193,35 @@ function draw() {
 
   image(img, 0, 0, img.width, img.height);
 
-  textAlign(CENTER, CENTER);
-  textSize(20);
-  noStroke();
-  fill(255);
   let x = 50;
   let y = 50;
   let radius = 40;
-  let word = "Rainbow";
-  textAlign(CENTER, CENTER);
-  if (dist(x, y, mouseX, mouseY) < radius) {
-    text(word, x, y);
-  } else {
-    fill(0, 50);
-    circle(x, y, radius * 2);
-  }
-}
 
+  if (dist(x, y, mouseX, mouseY) < radius) {
+    fill(255);
+  } else {
+    fill(0);
+  }
+
+  circle(x, y, radius * 2);
+}
 ```
 
-With this sketch, I can isolate all the code that handles drawing the hidden text and separate it into the `hiddenText()` function I created earlier.
+With this sketch, I can isolate all the code that handles drawing the button and separate it into the `button()` function I created earlier.
 
 ```js
-function hiddenText() {
-  textAlign(CENTER, CENTER);
-  textSize(20);
-  noStroke();
-  fill(255);
+function button() {
   let x = 50;
   let y = 50;
   let radius = 40;
-  let word = "Rainbow";
-  textAlign(CENTER, CENTER);
+
   if (dist(x, y, mouseX, mouseY) < radius) {
-    text(word, x, y);
+    fill(255);
   } else {
-    fill(0, 50);
-    circle(x, y, radius * 2);
+    fill(0);
   }
+
+  circle(x, y, radius * 2);
 }
 ```
 
@@ -252,21 +229,16 @@ Lastly, within my `draw()` function, I can call the function I created:
 
 ```js
 draw(){
-   hiddenText();
+   button();
 }
 ```
-
-<div id="00"></div>
 
 ```js
 let img;
 
-function preload() {
-  img = loadImage("rainbow.png");
-}
-
-function setup() {
+async function setup() {
   createCanvas(400, 400);
+  img = await loadImage("rainbow.png");
 }
 
 function draw() {
@@ -274,25 +246,21 @@ function draw() {
 
   image(img, 0, 0, img.width, img.height);
 
-  hiddenText();
+  button();
 }
 
-function hiddenText() {
-  textAlign(CENTER, CENTER);
-  textSize(20);
-  noStroke();
-  fill(255);
+function button() {
   let x = 50;
   let y = 50;
   let radius = 40;
-  let word = "Rainbow";
-  textAlign(CENTER, CENTER);
+
   if (dist(x, y, mouseX, mouseY) < radius) {
-    text(word, x, y);
+    fill(255);
   } else {
-    fill(0, 50);
-    circle(x, y, radius * 2);
+    fill(0);
   }
+
+  circle(x, y, radius * 2);
 }
 ```
 
@@ -302,30 +270,28 @@ While modularity allows us to separate parts of our code into different function
 
 When we define our own functions, we can also create our own parameters that control how the function operates.
 
-For example, if I wanted my `hiddenText()` parameter to draw different circles with different text at different positions, I can turn those variables into parameters that I define when I call the function:
+For example, if I wanted my `button()` parameters to draw different buttons with different sizes at different positions, I can turn those variables into parameters that I define when I call the function:
 
 ```js
-function hiddenText(word, x, y){
+function button(radius, x, y){
 }
 ```
-Instead of using the the variables of `x`, `y`, and `word` within my function, I can now define these parameters when I call the function in `draw()`:
+
+Instead of using the the variables of `x`, `y`, and `radius` within my function, I can now define these parameters when I call the function in `draw()`:
 
 ```js
-  hiddenText("double", 200, 300);
-  hiddenText("rainbow", 100, 50);
+  button(20, 200, 300);
+  button(30, 100, 50);
 ```
 
-<div id="01"></div>
+
 
 ```js
 let img;
 
-function preload() {
-  img = loadImage("rainbow.png");
-}
-
-function setup() {
+async function setup() {
   createCanvas(400, 400);
+  img = await loadImage("rainbow.png");
 }
 
 function draw() {
@@ -333,25 +299,18 @@ function draw() {
 
   image(img, 0, 0, img.width, img.height);
 
-  hiddenText("double", 200, 300);
-  hiddenText("rainbow", 100, 50);
+  button(20, 200, 300);
+  button(30, 100, 50);
 }
 
-function hiddenText(word, x, y) {
-  textAlign(CENTER, CENTER);
-  textSize(20);
-  noStroke();
-  fill(255);
-
-  let radius = 40;
-
-  textAlign(CENTER, CENTER);
+function button(radius, x, y) {
   if (dist(x, y, mouseX, mouseY) < radius) {
-    text(word, x, y);
+    fill(255);
   } else {
-    fill(0, 50);
-    circle(x, y, radius * 2);
+    fill(0);
   }
+
+  circle(x, y, radius * 2);
 }
 ```
 
@@ -360,47 +319,34 @@ function hiddenText(word, x, y) {
 
 In addition to functions taking in values as parameters, functions can also return values. I can return values from a function by using the keyword `return`.
 
-For example, I want to make my above sketch even more modular and reusable by separating out the functionality for detecting the mouse near my hidden circle.
-
-The code for currently checking my mouse detection:
+For example, I can have the button function return `true` or `false` depending on if the user is over the the button. To do this, I can first create a local variable named `mouseOver` to hold the value I want to return. Then, in my `dist` if  statement, I can assign `mouseOver` either `true` or `false`. Lastly, I need to return my `mouseOver` by using the keyword `return` followed by my variable name.
 
 ```js
-dist(x, y, mouseX, mouseY) < radius
-``` 
+function button(radius, x, y) {
+  let mouseOver;
 
-I can separate this code out into its own function and provide it with return values of either `true` or `false`:
-
-```js
-function isMouseNear(x, y, radius) {
   if (dist(x, y, mouseX, mouseY) < radius) {
-    return true;
+    fill(255);
+    mouseOver = true;
   } else {
-    return false;
+    fill(0);
+    mouseOver = false;
   }
+  circle(x, y, radius * 2);
+  return mouseOver;
 }
 ```
 
-I can then replace my original code with this function:
-
-```js
-  if (isMouseNear(x, y, radius)) {
-    text(word, x, y);
-  } else {
-    fill(0, 50);
-    circle(x, y, radius * 2);
-  }
-```
-
+Since my buttons now return a `true` or `false`, I can use them within an if statement. In the below example, I can create a new variable for a background color, and then draw a transparent background based on whether or not the user hovers over a button:
 
 ```js
 let img;
+let backgroundColor;
 
-function preload() {
-  img = loadImage("rainbow.png");
-}
-
-function setup() {
+async function setup() {
   createCanvas(400, 400);
+  img = await loadImage("rainbow.png");
+  backgroundColor = color(0, 0);
 }
 
 function draw() {
@@ -408,33 +354,28 @@ function draw() {
 
   image(img, 0, 0, img.width, img.height);
 
-  hiddenText("double", 200, 300);
-  hiddenText("rainbow", 100, 50);
-}
-
-function hiddenText(word, x, y) {
-  textAlign(CENTER, CENTER);
-  textSize(20);
-  noStroke();
-  fill(255);
-
-  let radius = 40;
-
-  textAlign(CENTER, CENTER);
-  if (isMouseNear(x, y, radius)) {
-    text(word, x, y);
-  } else {
-    fill(0, 50);
-    circle(x, y, radius * 2);
+  if (button(20, 200, 300) == true) {
+    backgroundColor = color(255, 0, 0, 20);
   }
+  if (button(30, 100, 50) == true) {
+    backgroundColor = color(0, 255, 0, 20);
+  }
+
+  background(backgroundColor);
 }
 
-function isMouseNear(x, y, radius) {
+function button(radius, x, y) {
+  let mouseOver;
+
   if (dist(x, y, mouseX, mouseY) < radius) {
-    return true;
+    fill(255);
+    mouseOver = true;
   } else {
-    return false;
+    fill(0);
+    mouseOver = false;
   }
+  circle(x, y, radius * 2);
+  return mouseOver;
 }
 ```
 
@@ -443,21 +384,17 @@ function isMouseNear(x, y, radius) {
 
 So far in this course we have used the `mousePressed() ` function to detect if a mouse is pressed. We can also use the `mouseIsPressed` boolean variable to detect if the mouse is being pressed at any given moment.
 
-For example, I can use the `mouseIsPressed` variable in my above sketch to detect when a circle has been pressed and then draw the next circle. To do this I can use a number variable that keeps track of what circle I am on as well as the total number of circles, incrementing that current circle when the mouse is pressed:
-
-<div id="02"></div>
+For example, I can use the `mouseIsPressed` variable in my above sketch to detect when a button has been pressed. For this to work properly, it is best to have a global variable that detects if the mouse has been pressed. We can used this variable to make sure only one button is pressed at a time:
 
 ```js
 let img;
-let currentText = 0;
-let totalText = 3;
+let backgroundColor;
+let canClick = true
 
-function preload() {
-  img = loadImage("rainbow.png");
-}
-
-function setup() {
+async function setup() {
   createCanvas(400, 400);
+  img = await loadImage("rainbow.png");
+  backgroundColor = color(0, 0);
 }
 
 function draw() {
@@ -465,47 +402,37 @@ function draw() {
 
   image(img, 0, 0, img.width, img.height);
 
-  if (currentText == 0) {
-    hiddenText("look", 200, 200);
+  if (button(20, 200, 300) == true) {
+    backgroundColor = color(255, 0, 0, 20);
   }
-  if (currentText == 1) {
-    hiddenText("double", 200, 300);
-  }
-  if (currentText == 2) {
-    hiddenText("rainbow", 100, 50);
+  if (button(30, 100, 50) == true) {
+    backgroundColor = color(0, 255, 0, 20);
   }
 
-  console.log(currentText);
+  background(backgroundColor);
 }
 
-function hiddenText(word, x, y) {
-  textAlign(CENTER, CENTER);
-  textSize(20);
-  noStroke();
-  fill(0, 0, 255);
+function button(radius, x, y) {
+  let mouseOver;
 
-  let radius = 40;
-
-  textAlign(CENTER, CENTER);
-  if (isMouseNear(x, y, radius)) {
-    if (mouseIsPressed) {
-      currentText += 1;
-      if (currentText > totalText - 1) {
-        currentText = 0;
-      }
-    }
-    text(word, x, y);
-  } else {
-    fill(0, 50);
-    circle(x, y, radius * 2);
-  }
-}
-
-function isMouseNear(x, y, radius) {
   if (dist(x, y, mouseX, mouseY) < radius) {
-    return true;
+    fill(255);
+    mouseOver = true;
   } else {
-    return false;
+    fill(0);
+    mouseOver = false;
   }
+  circle(x, y, radius * 2);
+
+  if(mouseOver == true && canClick == true && mouseIsPressed == true){
+    canClick = false;
+    return true
+  }
+
+  if(mouseIsPressed == false){
+    canClick = true;
+  }
+  
+  return false;
 }
 ```
