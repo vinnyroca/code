@@ -181,7 +181,6 @@ Due:
 
 Due:
 
-
 - Nothing Due Today!
 ## Week 10
 
@@ -195,13 +194,11 @@ Due:
 
 ### Thursday 11/5
 
-- Discussion
 - Studio Time: Performance
 
 Due:
 
-- Power and Surveillance Response
-
+- Continue work on Performance project 
 ## Week 11
 
 ### Tuesday 11/10
