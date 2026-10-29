@@ -10,14 +10,14 @@ permalink: /Tutorials/08_sound/
 <script src="/assets/sketches/code_08/code_08_03.js"></script>
 <script src="/assets/sketches/code_08/code_08_04.js"></script>
 <script src="/assets/sketches/code_08/code_08_05.js"></script>
-<script src="/assets/sketches/code_08/code_08_06.js"></script>
-<script src="/assets/sketches/code_08/code_08_07.js"></script>
+
+
 
 # Sound 
 
 ## Loading Sound
 
-Similar to loading in fonts and images, we can load in sound in p5.js by using the `preload()` function. After you upload your sound file, you can use the function `loadSound()`.
+Similar to loading in fonts and images, we can load in sound in p5.js by using `async` and `await` in our `Setup()` method. After you upload your sound file, you can use the function `loadSound()`.
 
 This tutorial will make use of the song *Freight Train* by Elizabeth Cotton, featuring Pete Seeger. This song was downloaded from the [Internet Archive](https://archive.org/details/RainbowQuest0312):
 
@@ -51,17 +51,14 @@ if (!music.isPlaying()) {
 
 In the below example, pressing the mouse will play or pause the song:
 
-
 <div id="01"></div>
 
 ```js
 let music;
 
-function preload() {
-  music = loadSound("Elizabeth_Cotten_Freight_Train_Pete_Seeger.mp3");
-}
-function setup() {
+async function setup() {
   createCanvas(400, 400);
+  music = await loadSound("Elizabeth_Cotten_Freight_Train_Pete_Seeger.mp3");
 }
 
 function draw() {
@@ -92,17 +89,17 @@ function mousePressed() {
 
 ### loop
 
-To loop a sound file, use the sound object function `.loop() `instead of `.play()`.
+To loop a sound file, use the sound object function `.loop(true) `. You can use this method at different points in your script to loop your audio.
 
 ```js
-music.loop();
+music.loop(true);
 ```
-### Volume
+### Amplitude
 
-You can change the volume the sound file plays at by using the sound object function `.setVolume()`. The function takes values between 0 and 1 with 1 being full volume.
+You can change the volume the sound file plays at by using the sound object function `.amp()`. The function takes values between 0 and 1 with 1 being full volume.
 
 ```js
-music.setVolume(0.5);
+music.amp(0.5);
 ```
 
 ### Rate
@@ -123,15 +120,14 @@ In this example, the rate is controlled by the `mouseX` position, and the volume
 ```js
 let music;
 
-function preload() {
-  music = loadSound("Elizabeth_Cotten_Freight_Train_Pete_Seeger.mp3");
-}
-function setup() {
+async function setup() {
   createCanvas(400, 400);
+  music = await loadSound("Elizabeth_Cotten_Freight_Train_Pete_Seeger.mp3");
 }
 
 function draw() {
   background(220);
+
   if (music.isPlaying()) {
     textSize(30);
     textAlign(CENTER, CENTER);
@@ -141,7 +137,7 @@ function draw() {
 
     let v = map(mouseY, height, 0, 0, 1);
 
-    music.setVolume(v);
+    music.amp(v);
     text("Volume =" + v, 200, 300);
     text("Rate =" + r, 200, 350);
   } else {
@@ -153,7 +149,8 @@ function draw() {
 
 function mousePressed() {
   if (!music.isPlaying()) {
-    music.loop();
+    music.loop(true);
+    music.play();
   } else {
     music.stop();
   }
@@ -165,7 +162,14 @@ function mousePressed() {
 
 We analyze the volume of a sound file in p5.js by using `p5.Amplitude`. Amplitude will measure the volume for all sounds playing in a p5 sketch.
 
-To use Amplitude in a p5 sketch, we need to make a new Amplitude object:
+This example uses a beat by CVLTIV8R from [freesound.org](https://freesound.org/people/CVLTIV8R/sounds/791735/):
+
+<audio controls>
+    <source src="/assets/images/8/791744__cvltiv8r__now-we-cookin-beat-by-cvltiv8r-217bpm-8.wav" type="audio/wav">
+    Your browser does not support the audio element.
+</audio>
+
+To use Amplitude in a p5 sketch, we need to make a new Amplitude object and connect it to our sound:
 
 ```js
 let amp;
@@ -188,39 +192,27 @@ let volume = amp.getLevel();
 let s = map(volume,0,01,50,400);
 circle(200,200,s);
 ```
-Example:
 
-This example uses a beat by CVLTIV8R from [freesound.org](https://freesound.org/people/CVLTIV8R/sounds/791735/):
-
-<audio controls>
-    <source src="/assets/images/8/791744__cvltiv8r__now-we-cookin-beat-by-cvltiv8r-217bpm-8.wav" type="audio/wav">
-    Your browser does not support the audio element.
-</audio>
 
 <div id="03"></div>
 
 ```js
 let music;
 let amp;
-let lastS = 0;
 
-function preload() {
-  music = loadSound(
-    "791744__cvltiv8r__now-we-cookin-beat-by-cvltiv8r-217bpm-8.wav"
-  );
-}
-function setup() {
+async function setup() {
   createCanvas(400, 400);
+  music = await loadSound("791744__cvltiv8r__now-we-cookin-beat-by-cvltiv8r-217bpm-8.wav");
   amp = new p5.Amplitude();
+  music.connect(amp);
 }
 
 function draw() {
-  background(100);
+  background(220);
   if (music.isPlaying()) {
     let v = amp.getLevel();
     let s = map(v, 0, 0.5, 50, 400);
     circle(200, 200, s);
-    lastS = s;
 
     textSize(30);
     textAlign(CENTER, CENTER);
@@ -234,7 +226,8 @@ function draw() {
 
 function mousePressed() {
   if (!music.isPlaying()) {
-    music.loop();
+    music.loop(true);
+    music.play();
   } else {
     music.stop();
   }
@@ -310,9 +303,13 @@ To get input from a microphone, we can use `p5.AudioIn`. To get the audio from t
 
 ```js
 let mic;
+let amp;
 
- function setup(){
+function setup() {
+  createCanvas(400, 400);
   mic = new p5.AudioIn();
+  amp = new p5.Amplitude();
+  mic.connect(amp);
 }
 ```
 
@@ -322,10 +319,10 @@ After we get the mic audio, we can tell p5.js to start the microphone with `.sta
 mic.start();
 ```
 
-Just like with Amplitude, we use `.getLevel()` on an AudioIn object and map this value to other objects.
+Just like with Amplitude, we use `.getLevel()` to get the current volume and map this value to other objects.
 
 ```js
-let v = mic.getLevel();
+let v = amp.getLevel();
 ```
 
 For example, we can map the level of our microphone to the height of a square in our canvas:
@@ -334,18 +331,21 @@ For example, we can map the level of our microphone to the height of a square in
 
 ```js
 let mic;
+let amp;
 lastH = 0;
 
 function setup() {
   createCanvas(400, 400);
   mic = new p5.AudioIn();
+  amp = new p5.Amplitude();
+  mic.connect(amp);
   mic.start();
 }
 
 function draw() {
   background(0, 60);
 
-  let v = mic.getLevel();
+  let v = amp.getLevel();
   let h = map(v, 0, 1, height, 0);
   h = lerp(lastH, h, 0.5);
   lastH = h;
@@ -441,79 +441,5 @@ function mouseReleased() {
 }
 ```
 
-
-## Midi Values
-
-Musical Instrument Digital Interface or MIDI is a standard for communicating between electronic musical instruments, computers and other digital devices.
-
-The MIDI standard contains numerical values that represent certain notes. You can find the MIDI number value of these notes using this [resource](https://computermusicresource.com/midikeys.html) from computermusicresource.com.
-
-
-
-In p5.js we can convert a midi value to a frequency by using the function `midiToFreq()`. The function takes in a MIDI value such as 60 which corresponds to middle C.
-
-```js
-osc.freq(midiToFreq(60));
-```
-
-Example:
-
-Using `midiToFreq()` to create a simple digital instrument, played with the 1 through 8 keys on your keyboard:
-
-<div id="06"></div>
-
-```js
-let notes = [];
-let midi = [48, 50, 52, 53, 55, 57, 59, 60];
-let keys = [49, 50, 51, 52, 53, 54, 55, 56];
-let noteNames = ["C", "D", "E", "F", "G", "A", "B", "C"];
-
-function setup() {
-  createCanvas(400, 400);
-  for (let i = 0; i < midi.length; i++) {
-    let osc = new p5.Oscillator("sine");
-    osc.start();
-    osc.amp(0);
-    osc.freq(midiToFreq(midi[i]));
-    notes.push(osc);
-  }
-}
-
-function draw() {
-  let radius = 20;
-  background(220);
-  for (let i = 0; i < notes.length; i++) {
-    let x = map(i, 0, notes.length - 1, radius, width - radius);
-    soundButton(x, 200, radius, notes[i], i);
-    textSize(20);
-    textAlign(CENTER, CENTER);
-    text(noteNames[i], x, 160);
-  }
-}
-
-function soundButton(x, y, radius, osc, keyNumber) {
-  fill(0);
-  if (keyIsDown(keys[keyNumber])) {
-    fill(255);
-    osc.amp(1, 0.1);
-  } else {
-    fill(0);
-    osc.amp(0, 0.1);
-  }
-
-  circle(x, y, radius * 2);
-}
-```
-
- ## Further References
-
-There are a wide variety of sound options within p5.js - explore the below links:
-
- - [p5.Envelope](https://p5js.org/reference/p5.sound/p5.Envelope/) - Use to set the Attack, Decay, Sustain, and Release of Audio
- - [reverb()](https://p5js.org/reference/p5.sound/p5.Reverb/) - Use to add reverb to your sound
-- [monoSynth()](https://p5js.org/reference/p5.sound/p5.MonoSynth/) and [PolySynth()](https://p5js.org/reference/p5.sound/p5.PolySynth/) - use for single and multi voice sound synthesis
-
-
-[Twelve Tone Bouncing Ball Example](https://editor.p5js.org/pickpanpuck/sketches/cw3TiR56c)
 
 

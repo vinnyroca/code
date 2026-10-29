@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "schedule.md",
+                "file": "_Tutorials/08_sound.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "schedule"
+              "title": "08_sound"
             }
           }
         ]
@@ -187,6 +187,9 @@
   },
   "active": "4ee3a776007ffa5e",
   "lastOpenFiles": [
+    "_Tutorials/09_capture.md",
+    "_Tutorials/08_sound.md",
+    "schedule.md",
     "04_play.md",
     "03_power.md",
     "02_culture.md",
@@ -198,7 +201,6 @@
     "Code.md",
     "_Tutorials/07_functions.md",
     "_Tutorials/10_oop.md",
-    "_Tutorials/09_capture.md",
     "_Inclass/13_filter.md",
     "_Projects/04_game.md",
     "_Projects/03_performance.md",
@@ -209,10 +211,8 @@
     "_Inclass/08_10PRINT.md",
     "_Inclass/09_rotate.md",
     "_Inclass/12_VisualMusic.md",
-    "schedule.md",
     "_Responses/02_TextandImages.md",
     "_Responses/01_art.md",
-    "_Tutorials/06_Text.md",
     "_site/Responses/02_TextandImages/index.html",
     "_site/Responses/02_TextandImages",
     "_site/Exercises/02_brush/index.html",
