@@ -194,6 +194,7 @@ Due:
 
 ### Thursday 11/5
 
+- [Meet at Pitzer Art Galleries](https://map.concept3d.com/?id=564#!m/54729?s/) - Isabel Beavers | Hex Hexa: forget nothing, have no dreams
 - Studio Time: Performance
 
 Due:
@@ -236,7 +237,7 @@ Due:
 
 - Game Ring game prototype
 - Watch Laurel Schwulst's [Basics of HTML](https://www.youtube.com/watch?v=CkzbI1Tv_rQ)  
-- Create a Github account
+- Create a Github account and add Education benefits
 
 ## Week 13
 

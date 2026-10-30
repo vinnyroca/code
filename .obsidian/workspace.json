@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Tutorials/08_sound.md",
+                "file": "schedule.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08_sound"
+              "title": "schedule"
             }
           }
         ]
@@ -187,8 +187,8 @@
   },
   "active": "4ee3a776007ffa5e",
   "lastOpenFiles": [
-    "_Tutorials/09_capture.md",
     "_Tutorials/08_sound.md",
+    "_Tutorials/09_capture.md",
     "schedule.md",
     "04_play.md",
     "03_power.md",
