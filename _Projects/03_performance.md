@@ -36,8 +36,34 @@ For this project, you will be paired in groups of two. It is imperative for this
 
 ## References:
 
-Text Rain
-City of Abstracts
-Imogen Heap, Glove
-[Open Score](https://www.youtube.com/watch?v=FlZFYnnnn7U), Robert Rauschenberg
-The Legible City
+- Romy Achituv & Camille Utterback, [Text Rain](https://camilleutterback.com/projects/text-rain/)
+- William Forsythe, [City of Abstracts](https://www.williamforsythe.com/installations.html?&no_cache=1&detail=1&uid=5)
+- [Imogen Heap](https://www.youtube.com/watch?v=3QtklTXbKUQ) (Watch 9:00 Minutes in)
+- Robert Rauschenberg, [Open Score](https://www.youtube.com/watch?v=FlZFYnnnn7U),
+- Jeffrey Shaw, [The Legible City](https://www.jeffreyshawcompendium.com/portfolio/legible-city/)
+
+## Final Rubric (9 points)
+
+### Concept (3 Points)
+
+**3:** The group/student went above expectation in their conceptual approach to the project. The relationship between performance and interactivity is thoughtfully considered in the work. The student(s) approached the concept for the project with creative/intellectual generosity and were able to demonstrate conceptual risk-taking in their project. The project does not directly copy from references, and the student(s) can clearly articulate the references/research that guided the production of the work. 
+
+**2:** The group/student meet expectations in their conceptual approach to the project. The student(s) presented a thoughtful interpretation of the project prompt and explored the relationship between performance and interactivity. It is clear the the student(s) did some form of research for the project.
+
+**0-1:** The group/student did not meet expectations in their conceptual approach to the project. The student(s) either closely followed a reference or did not demonstrate an understanding of the assignment. The assignment might be missing required elements or shows little effort to consider the project prompt.
+
+### Code (3 Points)
+
+**3:** Within the project, the student(s) used their introductory programming knowledge to create a conceptually and technically complex system. The student(s) made use of functions learned in class as well as explored new functions and approaches using p5 documentation or other sources. The student(s) is able to clearly communicate their system and the programming concepts that used to design their project.
+
+**2:** Within the project the student used their introductory programming knowledge to create a functional system. The student(s) only made use of functions learned in class. The student(s) can communicate their system and the programming concepts they used to design their project.
+
+**0-1:** The student(s)' project is either non-functional or barely functional. While effort was made to create the project, the final code contains bugs or errors that causes the program to be unable to run. The student(s) did not seek help from the instructor or peers in advance of submission.
+
+### Craft (3 Points)
+
+**3:** The student(s) demonstrated exceptional thoughtfulness and intentionality in their visual, text, sonic, and interactive design. All elements of the project are clearly connected with the student(s) conceptual approach.
+
+**2:** The visual, text and interactive elements of the project are somewhat intentional and can be connected to the conceptual approach to the project.
+
+**0-1:** The visual, text, and interactive elements of the project are unrelated to the conceptual approach to the project. 
