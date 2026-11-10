@@ -42,9 +42,9 @@ For this project, you will be paired in groups of two. It is imperative for this
 - Robert Rauschenberg, [Open Score](https://www.youtube.com/watch?v=FlZFYnnnn7U),
 - Jeffrey Shaw, [The Legible City](https://www.jeffreyshawcompendium.com/portfolio/legible-city/)
 
-## Final Rubric (9 points)
+## Final Rubric (15 points)
 
-### Concept (3 Points)
+### Concept (5 Points)
 
 **3:** The group/student went above expectation in their conceptual approach to the project. The relationship between performance and interactivity is thoughtfully considered in the work. The student(s) approached the concept for the project with creative/intellectual generosity and were able to demonstrate conceptual risk-taking in their project. The project does not directly copy from references, and the student(s) can clearly articulate the references/research that guided the production of the work. 
 
@@ -52,7 +52,7 @@ For this project, you will be paired in groups of two. It is imperative for this
 
 **0-1:** The group/student did not meet expectations in their conceptual approach to the project. The student(s) either closely followed a reference or did not demonstrate an understanding of the assignment. The assignment might be missing required elements or shows little effort to consider the project prompt.
 
-### Code (3 Points)
+### Code (5 Points)
 
 **3:** Within the project, the student(s) used their introductory programming knowledge to create a conceptually and technically complex system. The student(s) made use of functions learned in class as well as explored new functions and approaches using p5 documentation or other sources. The student(s) is able to clearly communicate their system and the programming concepts that used to design their project.
 
@@ -60,7 +60,7 @@ For this project, you will be paired in groups of two. It is imperative for this
 
 **0-1:** The student(s)' project is either non-functional or barely functional. While effort was made to create the project, the final code contains bugs or errors that causes the program to be unable to run. The student(s) did not seek help from the instructor or peers in advance of submission.
 
-### Craft (3 Points)
+### Craft (5 Points)
 
 **3:** The student(s) demonstrated exceptional thoughtfulness and intentionality in their visual, text, sonic, and interactive design. All elements of the project are clearly connected with the student(s) conceptual approach.
 
