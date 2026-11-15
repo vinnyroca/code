@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Projects/03_performance.md",
+                "file": "_Responses/04_play.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "03_performance"
+              "title": "04_play"
             }
           }
         ]
@@ -187,32 +187,32 @@
   },
   "active": "4ee3a776007ffa5e",
   "lastOpenFiles": [
+    "_Responses/02_TextandImages.md",
+    "_Responses/01_art.md",
+    "_Responses/04_play.md",
+    "02_culture.md",
+    "03_power.md",
+    "_Responses/03_web.md",
+    "_Projects/04_game.md",
+    "Code.md",
+    "Narrative Holder.md",
+    "Projects Holder.md",
+    "_Projects/03_performance.md",
     "_Projects/02_narrative.md",
     "_Tutorials/09_capture.md",
     "_Tutorials/10_oop.md",
-    "Code.md",
     "schedule.md",
     "_Tutorials/08_sound.md",
-    "04_play.md",
-    "03_power.md",
-    "02_culture.md",
     "assignments.md",
     "Ball Answer.md",
-    "Narrative Holder.md",
-    "Projects Holder.md",
     "index.md",
     "_Tutorials/07_functions.md",
     "_Inclass/13_filter.md",
-    "_Projects/04_game.md",
-    "_Projects/03_performance.md",
     "_Projects/01_time.md",
     "_Inclass/11_cutOutMessage.md",
     "_Inclass/10_clock.md",
     "_Inclass/08_10PRINT.md",
     "_Inclass/09_rotate.md",
-    "_Inclass/12_VisualMusic.md",
-    "_Responses/02_TextandImages.md",
-    "_Responses/01_art.md",
     "_site/Responses/02_TextandImages/index.html",
     "_site/Responses/02_TextandImages",
     "_site/Exercises/02_brush/index.html",

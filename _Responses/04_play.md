@@ -20,5 +20,7 @@ For this response, do the following:
 
 ## Submit:
 
-In the Discord channel for Response 4 and Canvas, post either a 500 word or 3 min video response considering the following questions (these are not strict questions to answer, but rather starting points for thinking about these sources):
+In the Discord channel for Response 3 and Canvas, post either a 500 word or 3 min video response considering the following question:
+
+- In what ways do you use the internet? Have you always used the internet this way? If not, how has your relationship with the internet changed/evolved over time? How do these works and reading inform how you think about making art for the web?
 

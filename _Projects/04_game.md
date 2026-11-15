@@ -15,7 +15,7 @@ To create our personal websites, we will be using p5.js, VSCode, and hosting our
 
 ### Website:
 
-Your website should be a form of personal expression about your own lived experience. This can manifest in a variety of ways: perhaps your website is a collection of your favorite youtube videos with a brief paragraph about each video - at the center is a game about you navigating your relationship with these youtubers. Or perhaps, your website is about one experience you remember - on the website you collect a variety of artifacts from images, text, sound etc - the game on your website is a pixel art recreation of that event. Or perhaps your website is a shire to people, animals, or places you never want to forget. There are a wide variety of approaches to this assignment. Your website should include at least four additional media elements beyond your game such as text, images, sounds, videos, etc.
+Your website should be a form of personal expression about your own lived experience. This can manifest in a variety of ways: perhaps your website is a collection of your favorite youtube videos with a brief paragraph about each video - at the center is a game about you navigating your relationship with these youtubers. Or perhaps, your website is about one experience you remember - on the website you collect a variety of artifacts from images, text, sound etc - the game on your website is a pixel art recreation of that event. Or perhaps your website is a shrine to people, animals, or places you never want to forget. There are a wide variety of approaches to this assignment. Your website should include at least four additional media elements beyond your game such as text, images, sounds, videos, etc.
 
 
 ### Web Design:
@@ -73,6 +73,6 @@ Your final game ring site should have a complete game in p5.js, complete HTML an
 
 Optionally, save a copy of your webpage using the [Internet Archive](https://web.archive.org/) by entering your website into the “Save Page Now” button.
 
-Submit a link to a zipped folder contain all of your website files to this link.
+Submit a link to a zipped folder contain all of your website files to Canvas.
 
 Submit the link to your finalized site in the class Discord and Canvas.
