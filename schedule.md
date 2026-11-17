@@ -263,10 +263,11 @@ Due:
 ### Tuesday 12/1
 
 - Studio Time: Game Ring
+- Disscussion
 
 Due:
 
-- Continue work on Game Ring
+- Internet and Play Due (Submit reflection by class time)
 
 ### Thursday 12/3
 
