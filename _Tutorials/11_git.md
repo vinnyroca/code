@@ -1,16 +1,31 @@
 ---
 layout: page
 title: Github Pages
-permalink: /Tutorials/13_git/
+permalink: /Tutorials/11_git/
 ---
 <style> img{width: auto !important;} </style>
-# GitHub Pages
+# GitHub
 
-In order to host our websites on the internet, we will be using GitHub Pages. GitHub Pages is a free web-hosting service provided by GitHub that publishes a website directly from a GitHub repository.
+In order to host our websites on the internet and edit our code, we will be using GitHub. GitHub Pages is a free web-hosting service provided by GitHub that publishes a website directly from a GitHub repository. Github Codespaces is a way to edit our projects online using a virtual machine.
 
-This tutorial will cover the process of making a GitHub pages site:
+## Downloading p5 folder
 
-## Setting up a GitHub Pages Site
+To begin creating our own website, we’ll first need to download the p5.js sketch we have been working on.
+
+To download your p5 project:
+
+1. Navigate to file > download 
+   
+   ![gif of downloading p5 sketch](/assets/images/11/11_01.gif)
+2. Unzip the downloaded project folder (Right-click > extract all on Windows, Double-click on MacOs) 
+   
+   ![gif of unzipping folder](/assets/images/11/11_02.gif)
+
+You can optionally rename your project folder to the name of your project:
+
+![gif of renaming folder](/assets/images/11/11_03.gif)
+
+## Setting up a GitHub Repository
 
 ### 1. Make a GitHub account
 
@@ -37,10 +52,10 @@ After creating your repository:
 1. Click on “uploading an existing file” on your repository page
    
    ![Screen Shot of Repository](/assets/images/git/git_01.png)
-1. Drag or upload all of the files from your website folder into the repository 
+2. Drag or upload all of the files from your website folder into the repository 
    
    ![Screen Shot of Repository](/assets/images/git/git_02.gif)
-2. Commit the changes - you must add a description of the commit 
+3. Commit the changes - you must add a description of the commit 
    
    ![Screen Shot of Repository](/assets/images/git/git_03.png)
 
@@ -74,3 +89,40 @@ Within a few minutes, your website will be live. You can find the address for th
 ### Optional: Custom Domain
 
 If you wish to have a custom domain for your site, you can follow these [instructions](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site) provided by GitHub 
+
+## Open Project in Codespaces
+
+Now that we have our project uploaded to a repository. We can edit the project using Github Codespaces. 
+
+To navigate to codespaces:
+
+1. Navigate to github.com/codespaces (make sure you are logged in already)
+2. Click the New codespace button
+3. Select your newly created repository
+4. Select Create codespace
+5. Select Trust Folder & Continue
+
+Your UI should look similar to the below image. We now have a virtual environment to edit our code.
+
+![](Attachments/Pasted%20image%2020261118214155.png)
+
+Components of a p5 Project
+
+When looking at our p5 project, we notice that it made up of at least 4 if not 5 files including the p5 sound library:
+
+- `index.html` - the base structure of our website
+- `style.css` - the styling of our website
+- `sketch.js` - our p5 sketch as a JavaScript file
+- `p5.js` - the p5.js library
+- `p5.sound.min.js` - the p5 sound library
+## Visualizing Site with Live Server
+
+Live Server is an extension to VSCode that will allow you to view your webpage in your browser.
+
+You can install Live Server by navigating to **Extensions** > **Searching** for Live Server > Press **Install**. 
+
+You can launch your website by using the Go Live button in the bottom left corner of your window.
+
+![gif of install vscode live server](/assets/images/11/11_07.gif)
+
+

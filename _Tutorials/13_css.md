@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CSS
-permalink: /Tutorials/12_css/
+permalink: /Tutorials/13_css/
 ---
 <style> img{width: auto !important;} </style>
 

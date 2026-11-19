@@ -1,70 +1,18 @@
 ---
 layout: page
 title: HTML
-permalink: /Tutorials/11_html/
+permalink: /Tutorials/12_html/
 ---
 <style> img{width: auto !important;} </style>
-# VSCode and HTML
+# HTML
 
 Before beginning this tutorial, please review Laurel Schwulst's [Basics of HTML](https://www.youtube.com/embed/CkzbI1Tv_rQ?si=29qLhFodHqSpwXPj) video:
 
-To begin creating our website for our final project, we will be learning about editing our p5 project in `Visual Studio Code`, as well as the essentials of creating a website with Hypertext Markup Language (`HTML`). HTML is the language of the internet - it is the standard language to create and structure websites.
+To begin creating our website for our final project, we will be learning about editing our p5 project in `Github Codespaces`, as well as the essentials of creating a website with Hypertext Markup Language (`HTML`). HTML is the language of the internet - it is the standard language to create and structure websites.
 
 You can see the HTML of any given website by navigating to the developer tools section of your given web browser:
 
 For example, in Chrome I can navigate with **Right Click** > **Inspect** to explore the underlying HTML of any website.
-
-## Downloading p5 folder
-
-To begin creating our own website, we’ll first need to download the p5.js sketch we have been working on.
-
-To download your p5 project:
-
-1. Navigate to file > download 
-   
-   ![gif of downloading p5 sketch](/assets/images/11/11_01.gif)
-1. Unzip the downloaded project folder (Right-click > extract all on Windows, Double-click on MacOs) 
-   
-   ![gif of unzipping folder](/assets/images/11/11_02.gif)
-
-You can optionally rename your project folder to the name of your project:
-
-![gif of renaming folder](/assets/images/11/11_03.gif)
-
-## Open Project in VSCode
-
-To open project in VSCode:
-
-Navigate to **File**> **Open Folder** > **Select** your p5 project folder
-
-![gif of openning p5 project in vscode](/assets/images/11/11_04.gif)
-
-
-
-Components of a p5 Project
-
-When looking at our p5 project, we notice that it made up of at least 4 if not 5 files including the p5 sound library:
-
-- `index.html` - the base structure of our website
-- `style.css` - the styling of our website
-- `sketch.js` - our p5 sketch as a JavaScript file
-- `p5.js` - the p5.js library
-- `p5.sound.min.js` - the p5 sound library
-
-Within VSCode we can continue to edit all of these files in our local computer. While p5 provides a web based integrated development environment (**IDE**) we can use VSCode as an IDE to work on our files locally, especially if we are managing much larger files or large amounts of content.
-
-## Visualizing Site with Live Server
-
-Live Server is an extension to VSCode that will allow you to view your webpage in your browser.
-
-You can install Live Server by navigating to **Extensions** > **Searching** for Live Server > Press **Install**.
-
-You can launch your website by using the Go Live button in the bottom left corner of your VSCode window.
-
-![gif of install vscode live server](/assets/images/11/11_07.gif)
-
-
-
 ## Structure of an HTML Document
 
 When opening our p5.js project folder, we should see an index.html file that contains the following code:
