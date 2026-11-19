@@ -126,3 +126,12 @@ You can launch your website by using the Go Live button in the bottom left corne
 ![gif of install vscode live server](/assets/images/11/11_07.gif)
 
 
+# Committing Changes
+
+When working in Codespaces our changes will save, however, we must manually commit those changes to our repository.
+
+When you are ready to commit changes, you can navigate to the Source Control Button, Enter a Commit Message, and then press Commit. You will then need to press Sync Changes to push your changes to your repository. You can stage specific changes by pressing the plus button next to the files that you want to commit and push to your repository.
+
+![](/Attachments/Screenshot%202026-11-18%20215250.png)
+
+![](/Attachments/Pasted%20image%2020261118215500.png)

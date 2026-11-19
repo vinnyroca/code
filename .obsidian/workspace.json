@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Tutorials/11_git.md",
+                "file": "_Tutorials/13_css.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11_git"
+              "title": "13_css"
             }
           }
         ]
@@ -188,8 +188,10 @@
   "active": "4ee3a776007ffa5e",
   "lastOpenFiles": [
     "_Tutorials/12_html.md",
-    "_Tutorials/13_css.md",
     "_Tutorials/11_git.md",
+    "Attachments/Screenshot 2026-11-18 215250.png",
+    "Attachments/Pasted image 20261118215500.png",
+    "_Tutorials/13_css.md",
     "Attachments/Pasted image 20261118214155.png",
     "_Responses/04_play.md",
     "_Responses/02_TextandImages.md",
@@ -213,7 +215,6 @@
     "_Tutorials/07_functions.md",
     "_Inclass/13_filter.md",
     "_Projects/01_time.md",
-    "_Inclass/11_cutOutMessage.md",
     "_site/Responses/02_TextandImages/index.html",
     "_site/Responses/02_TextandImages",
     "_site/Exercises/02_brush/index.html",
@@ -227,8 +228,6 @@
     "Attachments/Pasted image 20260930223541.png",
     "Attachments/Pasted image 20260930223249.png",
     "Attachments/Pasted image 20260930223103.png",
-    "Attachments/download.png",
-    "_site/Attachments/Pasted image 20260902224402.png",
     "_site/assets/main.scss",
     "_site/assets/main.css.map",
     "_layouts/table.html",
