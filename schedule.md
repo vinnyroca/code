@@ -228,6 +228,7 @@ Due:
 Due:
 
 - Read Game Ring project description
+- Game Ring Proposal
 
 ### Thursday 11/19
 
